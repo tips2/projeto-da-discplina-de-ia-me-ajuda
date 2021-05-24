@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>* TODOS OS CALOUROS JA SAO MATRICULADOS NAS DISCIPLINAS OBRIGATORIAS *</pattern>
+    <template>Sim, e nos proximos periodos cada um faz a matricula em cada materia no SIEWEB</template>
+  </category>
+
+  <category>
+    <pattern>* POSSO TRANCAR ALGUMA DISCIPLINAS NO PRIMEIRO PERIODO</pattern>
+    <template>Nao sei</template>
+  </category>
+
+  <category>
+    <pattern>* ME MATRICULAR EM DISCIPLINAS ELETIVAS *</pattern>
+    <template>No decorrer do curso, as disciplinas eletivas estarão sendo ofertadas na hora da matricula no SieWeb</template>
+  </category>
+
+  <category>
+    <pattern>SEM *</pattern>
+    <template>nao sei</template>
+  </category>
+
+</aiml>
