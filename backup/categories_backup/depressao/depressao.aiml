@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern># PERFIL #</pattern>
+        <template>
+            <think>
+                <set name="topic">PERFILINICIAL</set>
+            </think>
+            <srai>STEP INICIAL</srai>
+        </template>
+    </category>
+
+    <topic name="PERFILINICIAL">
+
+        <category>
+            <pattern>STEP INICIAL</pattern>
+            <template>
+                <think>
+                    <set name="topic">PERFILINICIAL</set>
+                </think>
+                Como este é o nosso primeiro contato, eu gostaria de me apresentar pra voce.
+                <button>
+                    <text></text>
+                </button>
+                Meu nome é Ari.
+                <button>
+                    <text></text>
+                </button>
+                Eu sou um robô baseado em Inteligência Artificial.
+                <button>
+                    <text></text>
+                </button>
+                Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
+                <button>
+                    <text></text>
+                </button>
+                Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
+                <button>
+                    <text></text>
+                </button>
+                Agora eu gostaria de conversar com voce para te conhecer melhor.
+                <button>
+                    <text></text>
+                </button>
+                Vou fazer algumas perguntas?
+                <button><text>sim</text><postback>sim</postback></button>
+                <button><text>não</text><postback>não</postback></button>
+                <button><text>talvez</text><postback>talvez</postback></button>
+                <button><text>etc</text><postback>etc</postback></button>
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>* VOU FAZER ALGUMAS PERGUNTAS *</that>
+            <template>
+                <think>
+                    <set name="resposta">
+                        <star/>
+                    </set>
+                </think>
+                <condition name="resposta">
+                    <li value="sim">
+                        <srai>STEP_VAMOS_LA</srai>
+                    </li>
+                    <li value="nao">
+                        <srai>STEP_DUVIDA</srai>
+                    </li>
+                    <li value="não">
+                        <srai>STEP_DUVIDA</srai>
+                    </li>
+                    <li value="talvez">
+                        <srai>STEP_DUVIDA</srai>
+                    </li>
+                    <li>
+                        <srai>STEP_DUVIDA</srai>
+                    </li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP_DUVIDA</pattern>
+            <template>
+                Veja, para interagirmos melhor, eu preciso saber algumas coisas sobre voce.
+                <button>
+                    <text></text>
+                </button>
+                Não se preocupe, toda nossa conversa é confidencial e protegida. Ela não será divulgada a ninguém.
+                <srai>STEP QUEM MORA</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP_VAMOS_LA</pattern>
+            <template>
+                Vamos lá então.
+                <srai>STEP_QUEM_MORA</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP_QUEM_MORA</pattern>
+            <template>
+                Com quem voce mora ? <button><text>pai</text><postback>pai</postback></button>
+                <button><text>mãe</text><postback>mãe</postback></button>
+                <button><text>sozinho</text><postback>sozinho</postback></button>
+                <button><text>amigo</text><postback>amigo</postback></button>
+                <button><text>ninguém</text><postback>ninguém</postback></button>
+                <button><text>etc</text><postback>etc</postback></button>
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>^ COM QUEM VOCE MORA *</that>
+            <template>
+                <think>
+                    <set name="mora">
+                        <star/>
+                    </set>
+                </think>
+                <condition name="mora">
+                    <li value="familia">
+                        <srai>STEP_QUADRO</srai>
+                    </li>
+                    <li value="pai">
+                        <srai>STEP_QUADRO</srai>
+                    </li>
+                    <li value="mae">
+                        <srai>STEP_QUADRO</srai>
+                    </li>
+                    <li value="sozinho">
+                        <srai>STEP_QUADRO</srai>
+                    </li>
+                    <li value="amigo">
+                        <srai>STEP_QUADRO</srai>
+                    </li>
+                    <li value="ninguem">
+                        <srai>STEP_QUADRO</srai>
+                    </li>
+                    <li value="nao quero responder">
+                        <srai>STEP QUADRO</srai>
+                    </li>
+                    <li>
+                        <srai>STEP_QUADRO</srai>
+                    </li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP_QUADRO</pattern>
+            <template>
+                Eu gostaria de saber agora o que voce faz pra se divertir?
+                <button>
+                    <text></text>
+                </button>
+                Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que voce escolhesse uma ou mais
+                opções.
+                <button>
+                    <text></text>
+                </button>
+                Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar” [Aguarde em
+                Construção]
+                <srai>TABELA</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>TABELA</pattern>
+            <template>
+                <!--
+                <table>
+                <style>
+                table, th, td {
+                    border: 1px solid black;
+                    padding:10px;
+                }
+                </style>
+                <tr>
+                    <center><td><b>Tabela Diversão</b></td></center>
+                </tr>
+                <tr>
+                    <td>Esportes</td>
+                    <td>Ouvir Música</td>
+                    <td>Ir ao cinema ou teatro</td>
+                    <td>Usar Drogas</td>
+                </tr>
+                <tr>
+                    <td>Conversar com Pessoas</td>
+                    <td>Navegar na internet</td>
+                    <td>Ir á festas</td>
+                    <td>Beber</td>
+                </tr>
+                <tr>
+                    <td>Desenhar ou pintar</td>
+                    <td>Jogar Video Game</td>
+                    <td>Fazer compras</td>
+                    <td>Namorar</td>
+                </tr>
+                <tr>
+                    <td>Dançar ou cantar</td>
+                    <td>Passear com os amigos</td>
+                    <td>Comer</td>
+                    <td>Nenhuma Atividade</td>
+                </tr>
+                <tr>
+                    <td>Ler</td>
+                    <td>Assistir TV</td>
+                    <td>Dormir</td>
+                    <td>Outros. Qual?</td>
+                </tr>
+            </table>
+            -->
+            </template>
+        </category>
+
+    </topic>
+
+</aiml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</pattern>
+      <template>
+	    Sugerimos contato direto com a coordenação do seu curso. Caso haja a necessidade de autenticação destes documentos, se dirija (com os documentos já impressos) a Secretaria do DRCA.
+      </template>
+  </category>
+
+  <category>
+    <pattern>SOLICITAR HISTORICO ANALITICO</pattern>
+      <template>
+	    Através do SIEWEB http://sistemas.ufal.br/academico/ . Caso haja a necessidade de autenticação dos documentos, se dirija (com os documentos já impressos) a Secretaria do DRCA.
+      </template>
+  </category>
+
+<category>
+    <pattern>* historico analitico * solicito?</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+  <category>
+    <pattern>onde * historico academico</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+</aiml>

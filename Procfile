@@ -1,0 +1,1 @@
+web: gunicorn client_web:app --workers 1 --timeout 3000
