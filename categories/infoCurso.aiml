@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</pattern>
+      <template>
+	    Sugerimos contato direto com a coordenação do seu curso. Caso haja a necessidade de autenticação destes documentos, se dirija (com os documentos já impressos) a Secretaria do DRCA.
+      </template>
+  </category>
+
+
+<category>
+    <pattern>INFORMAÇÕES * CURSO</pattern>
+      <template><srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</srai></template>
+  </category>
+
+<category>
+    <pattern>INFORMAÇÕES * CURSO *</pattern>
+      <template><srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</srai></template>
+  </category>
+
+  <category>
+    <pattern>DOCUMENTOS PENDENTES</pattern>
+      <template>
+      Caso sejam documentos pendentes relativos a ingresso pelo sistema de cotas, os documentos deverão ser entregues no atendimento - COPEVE. Caso sejam documentos pendentes relativos a ingresso pelo sistema de ampla concorrência, os documentos deverão ser entregues na Secretaria do DRCA.
+	    </template>
+  </category>
+
+  <category>
+    <pattern>* DOCUMENTOS PENDENTES *</pattern>
+      <template><srai>DOCUMENTOS PENDENTES</srai></template>
+  </category>
+
+</aiml>

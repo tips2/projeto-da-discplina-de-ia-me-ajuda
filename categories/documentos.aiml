@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>SOLICITAR HISTORICO ANALITICO</pattern>
+      <template>
+	    Através do SIEWEB http://sistemas.ufal.br/academico/ . Caso haja a necessidade de autenticação dos documentos, se dirija (com os documentos já impressos) a Secretaria do DRCA.
+      </template>
+  </category>
+
+<category>
+    <pattern>SOLICITO * HISTORICO ANALITICO *</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+  <category>
+    <pattern>SOLICITAR * HISTORICO academico *</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+    <category>
+    <pattern>SOLICITAR * HISTORICO analitico</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+  <category>
+    <pattern>* SOLICITAR * HISTORICO analitico</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+
+    <category>
+    <pattern>AUTENTICAR FORMULARIO NA TRANSPAL</pattern>
+      <template>
+	    Os formulários da Transpal devem ser autenticados junto à coordenação de cada curso, ratificamos que o Departamento de Registro e Controle Acadêmico – DRCA, não é habilitado para realizar tal procedimento.
+        </template>
+  </category>
+
+<category>
+    <pattern>* FORMULARIO * TRANSPAL *</pattern>
+      <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
+  </category>
+
+<category>
+    <pattern>* FORMULARIO * TRANSPAL</pattern>
+      <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
+  </category>
+
+</aiml>
+
+

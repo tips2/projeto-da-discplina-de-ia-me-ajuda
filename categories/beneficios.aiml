@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>COMO COMER NO RU</pattern>
+      <template>
+      Você precisa de um documento de identificação ( identidade ou carteirinha estudantil), seu comprovante de matrícula, que pode ser emitido pelo sieweb,  se for calouro pode utilizar a página da copeve onde consta a sua aprovação e a taxa (3,00).
+      </template>
+  </category>
+
+  <category>
+    <pattern>* COMER NO RU</pattern>
+      <template><srai>COMO COMER NO RU</srai></template>
+  </category>
+
+  <category>
+    <pattern>* RU *</pattern>
+      <template><srai>COMO COMER NO RU</srai></template>
+  </category>
+
+  <category>
+  <pattern>ATENDIMENTO ODONTOLOGICO</pattern>
+  <template>
+        Você vai precisar fazer um cadastro na PROEX( localizado na reitoria) , depois de preenchido, você vai no bloco de odontologia para poder marcar a sua consulta.
+  </template>
+  </category>
+
+    <category>
+    <pattern>COMO * ODONTOLOGICO</pattern>
+      <template><srai>ATENDIMENTO ODONTOLOGICO</srai></template>
+  </category>
+
+</aiml>
