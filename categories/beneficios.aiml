@@ -4,7 +4,7 @@
   <category>
     <pattern>COMO COMER NO RU</pattern>
       <template>
-      Você precisa de um documento de identificação ( identidade ou carteirinha estudantil), seu comprovante de matrícula, que pode ser emitido pelo sieweb,  se for calouro pode utilizar a página da copeve onde consta a sua aprovação e a taxa (3,00).
+      Você precisa de um documento de identificação (identidade ou carteirinha estudantil), seu comprovante de matrícula, que pode ser emitido pelo sieweb,  se for calouro pode utilizar a página da copeve onde consta a sua aprovação e a taxa (3,00).
       </template>
   </category>
 
@@ -28,6 +28,74 @@
     <category>
     <pattern>COMO * ODONTOLOGICO</pattern>
       <template><srai>ATENDIMENTO ODONTOLOGICO</srai></template>
+  </category>
+
+  <category>
+    <pattern>RECEBER BOLSA</pattern>
+      <template>
+          Você pode receber bolsa de várias formas, uma delas é procurar os auxílios da proest, onde é oferecido bolsa pró graduando, entre outros auxílios (incluir link). Você também pode entrar em um grupo de pesquisa e ser bolsista de iniciação científica (Incluir link do PROGRAD).
+      </template>
+  </category>
+
+  <category>
+    <pattern>COMO * PARA * BOLSA</pattern>
+      <template><srai>RECEBER BOLSA</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUERO * BOLSA *</pattern>
+      <template><srai>RECEBER BOLSA</srai></template>
+  </category>
+
+<category>
+    <pattern>ENTRAR EM EXTENSAO/PESQUISA</pattern>
+      <template>
+          Interesse, a maioria dos professores do instituto tem projeto de pesquisa, dependendo do seu curso, você pode conversar com um professor da sua área de interesse e falar que quer entrar em um projeto de pesquisa/extensão com ele/ela.
+      </template>
+  </category>
+
+  <category>
+    <pattern>QUERO * PROJETO DE EXTENSAO?</pattern>
+      <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO * PROJETO DE EXTENSAO?</pattern>
+      <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUERO * PROJETO DE PESQUISA?</pattern>
+      <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO * PROJETO DE PESQUISA?</pattern>
+      <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
+  </category>
+
+<category>
+    <pattern>COMO FUNCIONA MONITORIA?</pattern>
+      <template>
+          As monitorias funcionam no horário contrário às suas aulas. O horário varia de acordo com cada matéria, cada monitor fica durante o ano com a disciplina, e a cada ciclo sai um edital com as ofertas para novos monitores.
+      </template>
+  </category>
+
+  <category>
+    <pattern>COMO FUNCIONA A MONITORIA?</pattern>
+      <template><srai>COMO FUNCIONA MONITORIA?</srai></template>
+  </category>
+
+<category>
+    <pattern>COMO SER MONITOR?</pattern>
+      <template>
+          Você vai precisar se inscrever em um formulário que a secretaria ou o professor responsável vai enviar pelo email institucional, ao preencher esse formulário, vai ter uma prova com os conhecimentos daquela matéria, a média da nota para ser aprovado é 7. Para ser um monitor de uma disciplina você precisa ter sido aprovada nela com nota mínima de 7.
+      </template>
+  </category>
+
+  <category>
+    <pattern>COMO * SER MONITOR?</pattern>
+      <template><srai>COMO SER MONITOR?</srai></template>
   </category>
 
 </aiml>
