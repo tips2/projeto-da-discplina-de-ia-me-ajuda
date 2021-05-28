@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</pattern>
+      <template>
+	    Conforme o Art 7º da Resolução Nº 25/2005 - CEPE, de 26 de outubro de 2005, somente a partir do segundo período será permitido ao aluno o trancamento de matrícula, em disciplinas ou no período, em data fixada pelo Calendário Acadêmico da UFAL. A exceção ocorre apenas nos casos de necessidade do afastamento do aluno por questões de saúde, comprovada pela Junta Médica da UFAL, ou decorrente de Serviço Militar Obrigatório.
+        </template>
+  </category>
+
+<category>
+    <pattern>COMO SOLICITO * TRANCAMENTO DE MATRICULA?</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+  </category>
+
+<category>
+    <pattern>COMO SOLICITAR O TRANCAMENTO DE MATRICULA?</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANCAMENTO DE MATRICULA?</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+</category>
+
+  <category>
+    <pattern>TRANCAMENTO DE DISCIPLINA?</pattern>
+      <template>
+	    Se você for do primeiro período, não pode solicitar trancamento de disciplina. http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/drca-trancamento-de-matricula-de-disciplina/ , preencha o formulário, se dirija ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. O processo administrativo deverá ser direcionado para a Coordenação do Curso. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.
+        </template>
+  </category>
+  
+<category>
+    <pattern>COMO SOLICITAR O TRANCAMENTO * DISCIPLINA?</pattern>
+      <template><srai>TRANCAMENTO DE DISCIPLINA?</srai></template>
+</category>
+
+<category>
+    <pattern>COMO SOLICITO O TRANCAMENTO * DISCIPLINA?</pattern>
+      <template><srai>TRANCAMENTO DE DISCIPLINA?</srai></template>
+</category>
+
+  <category>
+    <pattern>DISPENSA DE DISCIPLINA?</pattern>
+      <template>
+	    Acesse http://www.ufal.edu.br/estudante/o-estudante/formularios/aproveitamento-de-estudo/drca-dispensa-de-disciplina-cursada/ , preencha o formulário e anexe cópias da documentação exigida (conforme as instruções descritas no formulário). O Histórico Analítico deverá estar autenticado pela instituição de origem (caso seja a UFAL, a autenticação será efetuada no DRCA). Após o preenchimento do formulário, se dirija ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. A solicitação poderá ser ou não autorizada (integral ou parcialmente) pelo Colegiado do Curso. O resultado do pedido será implantado no Histórico Analítico do (a) requerente, pelo DRCA, após análise do Colegiado do Curso. CONFIRA!
+        </template>
+  </category>
+
+<category>
+    <pattern>* DISPENSA * DISCIPLINA *</pattern>
+      <template><srai>DISPENSA DE DISCIPLINA?</srai></template>
+</category>
+
+<category>
+    <pattern>* REAPROVEITAMENTO * DISCIPLINA *</pattern>
+      <template><srai>DISPENSA DE DISCIPLINA?</srai></template>
+</category>
+
+<category>
+    <pattern>* REAPROVEITAMENTO * MATERIA *</pattern>
+      <template><srai>DISPENSA DE DISCIPLINA?</srai></template>
+</category>
+
+  <category>
+    <pattern>QUAIS DISCIPLINAS ELETIVAS?</pattern>
+      <template>
+        As eletivas tendem a variar de acordo com a oferta semestral de disciplinas. Caso você tenha interesse em verificar as disciplinas obrigatórias e as eletivas de ênfase, é só acessar este (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas) ou no sieweb em matrícula-Grade Curricular.
+        </template>
+  </category>
+
+<category>
+    <pattern>QUAIS * MATERIA ELETIVAS?</pattern>
+      <template><srai>QUAIS DISCIPLINAS ELETIVAS?</srai></template>
+</category>
+
+<category>
+    <pattern>QUAIS * DISCIPLINAS ELETIVAS?</pattern>
+      <template><srai>QUAIS DISCIPLINAS ELETIVAS?</srai></template>
+</category>
+
+  <category>
+    <pattern>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</pattern>
+      <template>
+        As matérias eletivas estão sendo ofertadas no decorrer do curso na hora da sua matrícula no sieweb todos os períodos.
+        </template>
+  </category>
+
+  <category>
+    <pattern>COMO SE MATRICULAR EM MATERIAS ELETIVAS?</pattern>
+      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
+</category>
+
+  <category>
+    <pattern>* MATRICULAR * ELETIVAS?</pattern>
+      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
+</category>
+
+</aiml>
