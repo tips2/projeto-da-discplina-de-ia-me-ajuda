@@ -31,4 +31,28 @@
       <template><srai>DOCUMENTOS PENDENTES</srai></template>
   </category>
 
+  <category>
+    <pattern>ENFASES</pattern>
+      <template>
+        COMPUTAÇÃO VISUAL: área da ciência da computação que incide sobre os aspectos relacionados a técnicas de processamento, síntese, armazenamento, recuperação, visualização, e análise de imagens digitais.
+        SISTEMAS DE COMPUTAÇÃO: área da ciência da computação que incide sobre os aspectos relacionados a hardware, sistemas embarcados, automação e controle; e robótica.
+        SISTEMAS DE INFORMAÇÃO: área da ciência da computação que incide sobre os aspectos relacionados ao projeto e implementação de software com qualidade a partir de técnicas de engenharia de software e de novas tecnologias.
+        SISTEMAS INTELIGENTES: área da ciência da computação que incide sobre os aspectos relacionados a técnicas de inteligência artificial.
+	    </template>
+  </category>
+
+  <category>
+    <pattern>QUAIS SÃO AS ÊNFASES?</pattern>
+      <template><srai>ENFASES</srai></template>
+  </category>
+
+  <category>
+    <pattern>* AS ÊNFASES?</pattern>
+      <template><srai>ENFASES</srai></template>
+  </category>
+
+    <category>
+    <pattern>QUAIS * ENFASES?</pattern>
+      <template><srai>ENFASES</srai></template>
+  </category>
 </aiml>
