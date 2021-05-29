@@ -3,37 +3,43 @@
 
   <category>
     <pattern>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</pattern>
-      <template>
+    <template>
 	    Sugerimos contato direto com a coordenação do seu curso. Caso haja a necessidade de autenticação destes documentos, se dirija (com os documentos já impressos) a Secretaria do DRCA.
       </template>
   </category>
 
 
-<category>
+  <category>
     <pattern>INFORMAÇÕES * CURSO</pattern>
-      <template><srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</srai></template>
+    <template>
+      <srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</srai>
+    </template>
   </category>
 
-<category>
+  <category>
     <pattern>INFORMAÇÕES * CURSO *</pattern>
-      <template><srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</srai></template>
+    <template>
+      <srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</srai>
+    </template>
   </category>
 
   <category>
     <pattern>DOCUMENTOS PENDENTES</pattern>
-      <template>
+    <template>
       Caso sejam documentos pendentes relativos a ingresso pelo sistema de cotas, os documentos deverão ser entregues no atendimento - COPEVE. Caso sejam documentos pendentes relativos a ingresso pelo sistema de ampla concorrência, os documentos deverão ser entregues na Secretaria do DRCA.
 	    </template>
   </category>
 
   <category>
     <pattern>* DOCUMENTOS PENDENTES *</pattern>
-      <template><srai>DOCUMENTOS PENDENTES</srai></template>
+    <template>
+      <srai>DOCUMENTOS PENDENTES</srai>
+    </template>
   </category>
 
   <category>
     <pattern>ENFASES</pattern>
-      <template>
+    <template>
         COMPUTAÇÃO VISUAL: área da ciência da computação que incide sobre os aspectos relacionados a técnicas de processamento, síntese, armazenamento, recuperação, visualização, e análise de imagens digitais.
         SISTEMAS DE COMPUTAÇÃO: área da ciência da computação que incide sobre os aspectos relacionados a hardware, sistemas embarcados, automação e controle; e robótica.
         SISTEMAS DE INFORMAÇÃO: área da ciência da computação que incide sobre os aspectos relacionados ao projeto e implementação de software com qualidade a partir de técnicas de engenharia de software e de novas tecnologias.
@@ -43,45 +49,190 @@
 
   <category>
     <pattern>QUAIS SÃO AS ÊNFASES?</pattern>
-      <template><srai>ENFASES</srai></template>
+    <template>
+      <srai>ENFASES</srai>
+    </template>
   </category>
 
   <category>
     <pattern>* AS ÊNFASES?</pattern>
-      <template><srai>ENFASES</srai></template>
+    <template>
+      <srai>ENFASES</srai>
+    </template>
   </category>
 
-    <category>
+  <category>
     <pattern>QUAIS * ENFASES?</pattern>
-      <template><srai>ENFASES</srai></template>
+    <template>
+      <srai>ENFASES</srai>
+    </template>
   </category>
 
-    <category>
+  <category>
     <pattern>QUAL A GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO?</pattern>
-      <template>
+    <template>
         Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
 	    </template>
   </category>
 
-    <category>
+  <category>
     <pattern>QUAL A GRADE DO CUROS DE CIÊNCIA DA COMPUTAÇÃO?</pattern>
-      <template>
+    <template>
         Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
 	    </template>
   </category>
 
   <category>
-  <pattern>QUAL A GRADE CURRICULAR DE ENGENHARIA DA COMPUTAÇÃO?</pattern>
+    <pattern>QUAL A GRADE CURRICULAR DE ENGENHARIA DA COMPUTAÇÃO?</pattern>
     <template>
       Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
     </template>
-</category>
+  </category>
 
   <category>
-  <pattern>QUAL A GRADE DO CUROS DE ENGENHARIA DA COMPUTAÇÃO?</pattern>
+    <pattern>QUAL A GRADE DO CUROS DE ENGENHARIA DA COMPUTAÇÃO?</pattern>
     <template>
       Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
     </template>
-</category>
+  </category>
 
+  <category>
+    <pattern>COMO FUNCIONA AS ÊNFASES?</pattern>
+    <template>
+      O sistema de ênfases permite que o aluno se especialize na área da computação de seu maior interesse. O colegiado manterá atualizado o rol de disciplinas eletivas para cada ênfase e o aluno que integralizar todas as disciplinas obrigatórias mais três disciplinas eletivas da mesma ênfase fará jus, ao final do curso, a um certificado de conclusão de ênfase a ser emitido pela coordenação do curso. Observados todos os requisitos, é facultado ao aluno a obtenção de mais de um certificado de conclusão de ênfase.
+      </template>
+  </category>
+
+  <category>
+    <pattern>COMO * ENFASES?</pattern>
+    <template>
+      <srai>COMO FUNCIONA AS ÊNFASES?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>O QUE ACONTECE SEU EU REPROVAR?</pattern>
+    <template>
+      Se você reprovar você perde o seu fluxo padrão, mas no próximo período você pode pagar essa matéria novamente.
+      </template>
+  </category>
+
+  <category>
+    <pattern>* SEU EU REPROVAR *</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SEU EU PERDER UMA MATÉRIA?</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* SEU EU PERDER UMA DISCIPLINA?</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FLUXO PADRÃO FLUXO INDIVIDUAL?</pattern>
+    <template>
+      Fluxo padrão é o aluno ser matriculado em todas as disciplinas do seu período e nunca ter reprovado em nenhuma outra, a matrícula semestral é aberta primeiro para o fluxo padrão, todos os alunos do primeiro período são automaticamente fluxo padrão. Fluxo individual é quando o aluno reprovou em alguma disciplina.
+      </template>
+  </category>
+
+  <category>
+    <pattern>O QUE É FLUXO PADRÃO?</pattern>
+    <template>
+      <srai>FLUXO PADRÃO FLUXO INDIVIDUAL?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>O QUE É FLUXO INDIVIDUAL?</pattern>
+    <template>
+      <srai>FLUXO PADRÃO FLUXO INDIVIDUAL?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>O QUE É AB1 E AB2?</pattern>
+    <template>
+      O semestre letivo é dividido entre AB1 e AB2, o professor que organiza como será feito a distribuição das avaliações de cada AB, para ser aprovado você precisa ter uma média mínima de 6 ( (AB1+AB2)/2).
+      </template>
+  </category>
+
+  <category>
+    <pattern>CALCULO DA NOTA FINAL?</pattern>
+    <template>
+      Para a realização da prova final você precisa obter uma nota mínima de 5 nas ABs. O cálculo para a obtenção da média final é a média ponderada da Nota Final (NF) das Avaliações Bimestrais, com peso 6 (seis), e da nota da Prova Final (PF), com peso 4 (quatro): ((6*MEDIA_DAS_ABs) + 4 * PROVA_FINAL)/10 = 5,5
+      </template>
+  </category>
+
+  <category>
+    <pattern>COMO É O CÁLCULO DA NOTA FINAL?</pattern>
+    <template>
+      <srai>CALCULO DA NOTA FINAL?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COMO É O CALCULADA A NOTA FINAL?</pattern>
+    <template>
+      <srai>CALCULO DA NOTA FINAL?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COORDENADOR DO CURSO?</pattern>
+    <template>
+      O Coordenador de Ciência da computação é o professor Bruno Pimentel, o vice coordenador é a professora Roberta Vilhena. Coordenador de Engenharia de Computação é o professor Ícaro Bezerra, e o vice coordenador é o professor João Raphael.
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUEM É O COORDENADOR *</pattern>
+    <template>
+      <srai>COORDENADOR DO CURSO?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>EMAIL DO PROFESSOR?</pattern>
+    <template>
+      Você pode encontrar nesse link: https://ic.ufal.br/institucional/docentes
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL * EMAIL DO PROFESSOR *</pattern>
+    <template>
+      <srai>EMAIL DO PROFESSOR?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SIGAA E SIEWEB?</pattern>
+    <template>
+      Sieweb e sigaa são sistemas para gestão das matrículas e informações dos alunos. O sigaa é um sistema mais completo e pretende substituir o sieweb em algum momento.
+    </template>
+  </category>
+
+  <category>
+    <pattern>* DIFERENÇA * SIEWEB E SIGAA?</pattern>
+    <template>
+      <srai>SIGAA E SIEWEB?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* DIFERENÇA * SIGAA E SIEWEB?</pattern>
+    <template>
+      <srai>SIGAA E SIEWEB?</srai>
+    </template>
+  </category>
 </aiml>

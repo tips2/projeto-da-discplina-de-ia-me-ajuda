@@ -96,4 +96,16 @@
       <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
 </category>
 
+  <category>
+    <pattern>COMO MUDAR DE TURNO?</pattern>
+      <template>
+        Através do processo seletivo de reopção e mudança de turno para cursos de graduação disponível em: http://copeve.ufal.br/ . O período de publicação do edital fica destacado no Calendário Acadêmico.
+        </template>
+  </category>
+
+    <category>
+    <pattern>* MUDAR DE TURNO</pattern>
+      <template><srai>COMO MUDAR DE TURNO?</srai></template>
+</category>
+
 </aiml>
