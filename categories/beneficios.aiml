@@ -98,4 +98,62 @@
       <template><srai>COMO SER MONITOR?</srai></template>
   </category>
 
+    <category>
+    <pattern>GRUPOS DE PESQUISA?</pattern>
+      <template>
+        NEES, núcleo de excelência em tecnologias educacionais (contato); 
+        EDGE, centro de inovação (contato);
+        CPTE, Centro de Pesquisa em Tecnologias Emergentes;
+        BrAIN, Brazilian Artificial Intelligence Networking in Medicine;
+        EASY, Engineering and Systems Group; 
+        LACCAN, Laboratório de Computação Científica e Análise Numérica;
+        Para conhecer mais grupos, acesse (https://ic.ufal.br/pesquisa/grupos-e-nucleos).
+        </template>
+  </category>
+
+    <category>
+    <pattern>QUAIS * PROJETOS DE PESQUISA * ?</pattern>
+      <template><srai>GRUPOS DE PESQUISA?</srai></template>
+  </category>
+
+      <category>
+    <pattern>GRUPOS DE EXTENSAO?</pattern>
+      <template>
+        LACOMP, Liga Acadêmica de Computação;
+        Katie, grupo de mulheres do instituto de computação;
+        GEMA, grupo de maratonas de programação do Instituto de Computação; 
+        IEEE, ramo estudantil da UFAL.
+        Para conhecer mais grupos, acesse (https://ic.ufal.br/pesquisa/grupos-e-nucleos).
+        </template>
+  </category>
+
+    <category>
+    <pattern>QUAIS * PROJETOS DE EXTENSAO * ?</pattern>
+      <template><srai>GRUPOS DE EXTENSAO?</srai></template>
+  </category>
+
+    <category>
+    <pattern>COMO CONSEGUIR EMAIL INSTITUCIONAL?</pattern>
+      <template>
+        O e-mail institucional deve ser solicitado ao técnico/professor Lucas Amorim e deve ser feito rápido pois é o canal de comunicação oficial do instituto. Através dele o aluno pode participar dos canais de avisos institucionais e se comunicar com professores e com a gestão.
+        </template>
+  </category>
+
+  <category>
+    <pattern>COMO CONSIGO O EMAIL INSTITUCIONAL?</pattern>
+      <template><srai>COMO CONSEGUIR EMAIL INSTITUCIONAL?</srai></template>
+  </category>
+
+    <category>
+    <pattern>BENEFICIOS DO EMAIL INSTITUCIONAL?</pattern>
+      <template>
+        Além de ser o canal de comunicação oficial do instituto, com ele temos um drive ilimitado, acesso free em contas pro como do github, ferramentas da jetbrains free, Windowns free ….(tem muita coisa).
+        </template>
+  </category>
+
+  <category>
+    <pattern>* BENEFICIOS DO EMAIL INSTITUCIONAL?</pattern>
+      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL?</srai></template>
+  </category>
+
 </aiml>

@@ -46,6 +46,23 @@
       <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
   </category>
 
+  <category>
+    <pattern>JUSTIFICAR ATESTADO MEDICO?</pattern>
+      <template>
+	      Você vai precisar levar  seu atestado no DRCA, que fica localizado na reitoria.
+      </template>
+  </category>
+
+<category>
+    <pattern>COMO JUSTIFICAR IDA AO MÉDICO?</pattern>
+      <template><srai>JUSTIFICAR ATESTADO MEDICO?</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO JUSTIFICAR O ATESTADO MEDICO?</pattern>
+      <template><srai>JUSTIFICAR ATESTADO MEDICO?</srai></template>
+  </category>
+
 </aiml>
 
 

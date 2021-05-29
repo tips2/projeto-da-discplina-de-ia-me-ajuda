@@ -55,4 +55,33 @@
     <pattern>QUAIS * ENFASES?</pattern>
       <template><srai>ENFASES</srai></template>
   </category>
+
+    <category>
+    <pattern>QUAL A GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO?</pattern>
+      <template>
+        Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
+	    </template>
+  </category>
+
+    <category>
+    <pattern>QUAL A GRADE DO CUROS DE CIÊNCIA DA COMPUTAÇÃO?</pattern>
+      <template>
+        Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
+	    </template>
+  </category>
+
+  <category>
+  <pattern>QUAL A GRADE CURRICULAR DE ENGENHARIA DA COMPUTAÇÃO?</pattern>
+    <template>
+      Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
+    </template>
+</category>
+
+  <category>
+  <pattern>QUAL A GRADE DO CUROS DE ENGENHARIA DA COMPUTAÇÃO?</pattern>
+    <template>
+      Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
+    </template>
+</category>
+
 </aiml>
