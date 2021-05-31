@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
+<!-- HISTÓRICO ANALÍTICO -->
+
   <category>
     <pattern>SOLICITAR HISTORICO ANALITICO</pattern>
       <template>
@@ -28,6 +30,7 @@
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
+<!-- FORMULÁRIO DA TRANSPAL -->
 
     <category>
     <pattern>AUTENTICAR FORMULARIO NA TRANSPAL</pattern>
@@ -45,6 +48,8 @@
     <pattern>* FORMULARIO * TRANSPAL</pattern>
       <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
   </category>
+
+<!-- ATESTADO MÉDICO -->
 
   <category>
     <pattern>JUSTIFICAR ATESTADO MEDICO?</pattern>

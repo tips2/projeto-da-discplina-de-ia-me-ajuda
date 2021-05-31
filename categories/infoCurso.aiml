@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
+<!-- INFO SOBRE O CURSO -->
   <category>
     <pattern>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</pattern>
     <template>
 	    Sugerimos contato direto com a coordenação do seu curso. Caso haja a necessidade de autenticação destes documentos, se dirija (com os documentos já impressos) a Secretaria do DRCA.
       </template>
   </category>
-
 
   <category>
     <pattern>INFORMAÇÕES * CURSO</pattern>
@@ -23,6 +23,8 @@
     </template>
   </category>
 
+<!-- DOCUMENTOS -->
+
   <category>
     <pattern>DOCUMENTOS PENDENTES</pattern>
     <template>
@@ -36,6 +38,8 @@
       <srai>DOCUMENTOS PENDENTES</srai>
     </template>
   </category>
+
+<!-- ÊNFASES -->
 
   <category>
     <pattern>ENFASES</pattern>
@@ -68,35 +72,7 @@
     </template>
   </category>
 
-  <category>
-    <pattern>QUAL A GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO?</pattern>
-    <template>
-        Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
-	    </template>
-  </category>
-
-  <category>
-    <pattern>QUAL A GRADE DO CUROS DE CIÊNCIA DA COMPUTAÇÃO?</pattern>
-    <template>
-        Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
-	    </template>
-  </category>
-
-  <category>
-    <pattern>QUAL A GRADE CURRICULAR DE ENGENHARIA DA COMPUTAÇÃO?</pattern>
-    <template>
-      Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
-    </template>
-  </category>
-
-  <category>
-    <pattern>QUAL A GRADE DO CUROS DE ENGENHARIA DA COMPUTAÇÃO?</pattern>
-    <template>
-      Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
-    </template>
-  </category>
-
-  <category>
+   <category>
     <pattern>COMO FUNCIONA AS ÊNFASES?</pattern>
     <template>
       O sistema de ênfases permite que o aluno se especialize na área da computação de seu maior interesse. O colegiado manterá atualizado o rol de disciplinas eletivas para cada ênfase e o aluno que integralizar todas as disciplinas obrigatórias mais três disciplinas eletivas da mesma ênfase fará jus, ao final do curso, a um certificado de conclusão de ênfase a ser emitido pela coordenação do curso. Observados todos os requisitos, é facultado ao aluno a obtenção de mais de um certificado de conclusão de ênfase.
@@ -110,6 +86,38 @@
     </template>
   </category>
 
+<!-- GRADE CURRICULAR -->
+
+  <category>
+    <pattern>QUAL A GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO?</pattern>
+    <template>
+        Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
+	    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL A GRADE DO CURSO DE CIÊNCIA DA COMPUTAÇÃO?</pattern>
+    <template>
+        Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
+	    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL A GRADE CURRICULAR DE ENGENHARIA DE COMPUTAÇÃO?</pattern>
+    <template>
+      Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL A GRADE DO CURSOS DE ENGENHARIA DE COMPUTAÇÃO?</pattern>
+    <template>
+      Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
+    </template>
+  </category>
+
+ 
+
   <category>
     <pattern>O QUE ACONTECE SEU EU REPROVAR?</pattern>
     <template>
@@ -118,21 +126,21 @@
   </category>
 
   <category>
-    <pattern>* SEU EU REPROVAR *</pattern>
+    <pattern>* SE EU REPROVAR *</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR?</srai>
     </template>
   </category>
 
   <category>
-    <pattern>* SEU EU PERDER UMA MATÉRIA?</pattern>
+    <pattern>* SE EU PERDER UMA MATÉRIA?</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR?</srai>
     </template>
   </category>
 
   <category>
-    <pattern>* SEU EU PERDER UMA DISCIPLINA?</pattern>
+    <pattern>* SE EU PERDER UMA DISCIPLINA?</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR?</srai>
     </template>
@@ -167,7 +175,7 @@
   </category>
 
   <category>
-    <pattern>CALCULO DA NOTA FINAL?</pattern>
+    <pattern>CÁLCULO DA NOTA FINAL?</pattern>
     <template>
       Para a realização da prova final você precisa obter uma nota mínima de 5 nas ABs. O cálculo para a obtenção da média final é a média ponderada da Nota Final (NF) das Avaliações Bimestrais, com peso 6 (seis), e da nota da Prova Final (PF), com peso 4 (quatro): ((6*MEDIA_DAS_ABs) + 4 * PROVA_FINAL)/10 = 5,5
       </template>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
+
   <category>
     <pattern>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO?</pattern>
       <template>
@@ -23,6 +24,49 @@
   <category>
     <pattern>onde * historico academico</pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+<!-- SITUAÇÃO DE VÍNCULO -->
+
+  <category>
+    <pattern>VINCULO COM A UNIVERSIDADE</pattern>
+      <template> 
+      Este tipo de informação tem caráter sigiloso. Somente o próprio aluno ou pessoa devidamente autorizada por instrumento procuratório tem acesso.  Se dirija à Secretaria do DRCA apresentando documento de identificação com foto (preferencialmente RG).
+      </template>
+  </category>
+
+  <category>
+    <pattern>ONDE VERIFICO MINHA SITUAÇÃO DE * VINCULO</pattern>
+      <template><srai>VINCULO</srai></template>
+  </category>
+
+ <category>
+    <pattern>QUERO SABER SOBRE * VINCULO *</pattern>
+      <template><srai>VINCULO</srai></template>
+  </category>
+
+<!-- SOLICITAÇÃO DE DOCUMENTOS -->
+
+<category>
+    <pattern>SOLICITAR DOCUMENTOS</pattern>
+      <template> 
+      Somente por procuração. O Código Civil diz que: "Art. 654. Todas as pessoas capazes são aptas para dar procuração mediante instrumento particular, que valerá desde que tenha a assinatura do outorgante. § 1o O instrumento particular deve conter a indicação do lugar onde foi passada, a qualificação do outorgante e do outorgado, a data e o objetivo da outorga com a designação e a extensão dos poderes conferidos. § 2o O terceiro com quem o mandatário tratar poderá exigir que a procuração traga a firma reconhecida." O DCRA exige o reconhecimento de firma e não aceita procuração enviada ou reproduzida digitalmente. O documento procuratório apresentado deverá ser o original.      
+      </template>
+  </category>
+
+<category>
+    <pattern>* SOLICITO DOCUMENTOS SEM IR AO DRCA?</pattern>
+      <template><srai>SOLICITAR DOCUMENTOS</srai></template>
+  </category>
+
+<category>
+    <pattern>* SOLICITO DOCUMENTOS SEM IR PESSOALMENTE?</pattern>
+      <template><srai>SOLICITAR DOCUMENTOS</srai></template>
+  </category>
+
+<category>
+    <pattern>* SOLICITO DOCUMENTOS?</pattern>
+      <template><srai>SOLICITAR DOCUMENTOS</srai></template>
   </category>
 
 </aiml>
