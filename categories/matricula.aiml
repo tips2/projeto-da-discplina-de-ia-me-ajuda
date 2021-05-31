@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
+<!-- TRANCAMENTO DE MATRÍCULA NO CURSO-->
+
   <category>
     <pattern>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</pattern>
       <template>
@@ -22,6 +24,35 @@
     <pattern>* TRANCAMENTO DE MATRICULA?</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
 </category>
+
+<category>
+    <pattern>TRANCAR A MATRICULA NO CURSO?</pattern>
+      <template>
+      Solicite o “Nada Consta” da(s) biblioteca(s), para a confirmação da quitação de dívida de empréstimo de livros. Acesse http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/drca-trancamento-de-matricula-do-curso/ , preencha o formulário, se dirija ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. O processo administrativo deverá ser direcionado para a Coordenação do Curso. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.
+      </template>
+  </category>
+
+<category>
+    <pattern>* TRANCO O CURSO?</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANCAR O CURSO?</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+</category>
+
+<category>
+    <pattern>* PARA TRANCAR O CURSO?</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+</category>
+
+<category>
+    <pattern>* PARA TRANCAR A MATRÍCULA NO CURSO?</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+</category>
+
+<!-- TRANCAMENTO DE DISCIPLINA-->
 
   <category>
     <pattern>TRANCAMENTO DE DISCIPLINA?</pattern>
