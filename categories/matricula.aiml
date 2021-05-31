@@ -38,7 +38,7 @@
 </category>
 
 <category>
-    <pattern>* TRANCAR O CURSO?</pattern>
+    <pattern>* TRANCAR O CURSO *</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
 </category>
 
@@ -48,8 +48,73 @@
 </category>
 
 <category>
-    <pattern>* PARA TRANCAR A MATRÍCULA NO CURSO?</pattern>
+    <pattern>* TRANCAR A MATRÍCULA NO CURSO *</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+</category>
+
+<category>
+    <pattern>COMO FUNCIONA O TRANCAMENTO DE MATRICULA?</pattern>
+      <template>
+      Conforme o Art 7º da Resolução Nº 25/2005 - CEPE, de 26 de outubro de 2005, o aluno interessado requererá o trancamento ao Colegiado do Curso que, em caso de deferimento, o efetivará no Sistema Acadêmico. O trancamento de matrícula no período poderá ser efetivado pelo prazo máximo de 04 (quatro) semestres, consecutivos ou não, quando então obrigar-se-á o aluno a reassumir as atividades acadêmicas de seu curso, sob pena de desligamento do mesmo. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.      
+      </template>
+  </category>
+
+<category>
+    <pattern>O QUE É TRANCAMENTO DE MATRÍCULA NO CURSO?</pattern>
+      <template><srai>COMO FUNCIONA O TRANCAMENTO DE MATRICULA?</srai></template>
+</category>
+
+<category>
+    <pattern>O QUE É TRANCAMENTO DE CURSO?</pattern>
+      <template><srai>COMO FUNCIONA O TRANCAMENTO DE MATRICULA?</srai></template>
+</category>
+
+<!-- DESISTÊNCIA DO CURSO -->
+
+<category>
+    <pattern>DESISTENCIA DO CURSO</pattern>
+      <template>
+      Solicite o “Nada Consta” da(s) biblioteca(s), para a confirmação da quitação de dívida de empréstimo de livros. Acesse e preencha o formulário específico disponível em: http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/requerimento-geral-drca/ , anexe a cópia da documentação exigida (conforme as instruções descritas no formulário). Se dirija ao DRCA para autenticação da cópia dos documentos e em seguida ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária.
+      </template>
+</category>
+
+<category>
+    <pattern>QUERO DESISTIR DO CURSO *</pattern>
+      <template><srai>DESISTENCIA DO CURSO</srai></template>
+</category>
+
+<category>
+    <pattern>* DESISTIR DO CURSO *</pattern>
+      <template><srai>DESISTENCIA DO CURSO</srai></template>
+</category>
+
+<category>
+    <pattern>COMO * DESISTENCIA DO CURSO?</pattern>
+      <template><srai>DESISTENCIA DO CURSO</srai></template>
+</category>
+
+<!-- REMATRÍCULA -->
+
+<category>
+    <pattern>REMATRICULA</pattern>
+      <template>
+      Acesse e preencha o formulário específico disponível em: http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/requerimento-geral-drca/ , anexe a cópia da documentação exigida (conforme as instruções descritas no formulário). Se dirija ao DRCA para autenticação da cópia dos documentos e em seguida ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.
+      </template>
+</category>
+
+<category>
+    <pattern>* VOLTAR PARA O CURSO QUE TRANQUEI?</pattern>
+      <template><srai>REMATRICULA</srai></template>
+</category>
+
+<category>
+    <pattern>* REMATRICULA?</pattern>
+      <template><srai>REMATRICULA</srai></template>
+</category>
+
+<category>
+    <pattern>* REMATRICULAR *</pattern>
+      <template><srai>REMATRICULA</srai></template>
 </category>
 
 <!-- TRANCAMENTO DE DISCIPLINA-->
@@ -70,6 +135,8 @@
     <pattern>COMO SOLICITO O TRANCAMENTO * DISCIPLINA?</pattern>
       <template><srai>TRANCAMENTO DE DISCIPLINA?</srai></template>
 </category>
+
+<!-- DISPENSA DE DISCIPLINA -->
 
   <category>
     <pattern>DISPENSA DE DISCIPLINA?</pattern>
@@ -93,6 +160,7 @@
       <template><srai>DISPENSA DE DISCIPLINA?</srai></template>
 </category>
 
+<!-- ELETIVAS -->
   <category>
     <pattern>QUAIS DISCIPLINAS ELETIVAS?</pattern>
       <template>
@@ -122,11 +190,50 @@
       <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
 </category>
 
-  <category>
+<category>
     <pattern>* MATRICULAR * ELETIVAS?</pattern>
       <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
 </category>
 
+<!-- REMANESCENTES -->
+
+<category>
+    <pattern>VAGAS REMANESCENTES</pattern>
+      <template>
+      A disponibilidade de vagas remanescentes deverá ser verificada junto a Coordenação do Curso que possua a disciplina equivalente a do seu curso e que seja do seu interesse.
+      </template>
+</category>
+
+<category>
+    <pattern>* VAGAS REMANESCENTES *</pattern>
+      <template><srai>VAGAS REMANESCENTES</srai></template>
+</category>
+
+<category>
+    <pattern>COMO * MATÉRIAS DE OUTRO CURSO?</pattern>
+      <template><srai>VAGAS REMANESCENTES</srai></template>
+</category>
+
+<!-- DISCIPLINAS ISOLADAS -->
+
+<category>
+    <pattern>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS?</pattern>
+      <template>
+      Conforme Resolução nº 71/2000 – CEPE, de 01 de dezembro de 2000, os interessados em ingressar na UFAL, como alunos especiais, deverão preencher o formulário disponível em: http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/drca-matricula-em-disciplina-isolada/ e entregá-lo na Secretaria do DRCA dentro do prazo estabelecido no Calendário Acadêmico. Os interessados poderão requerer matrícula em até 02 (duas) disciplinas isoladas dos Cursos de Graduação. Caso o processo seja deferido, para efetivação da matrícula, será exigida a documentação destacada no formulário e o pagamento da taxa (https://ufal.br/estudante/documentos/manuais/manual-para-a-emissao-de-gru/ ) específica conforme tabela de emolumentos (http://www.ufal.edu.br/transparencia/institucional/conselhos-superiores/consuni/resolucoes/2005/resolucao-no-32-2005-consuni-de-05-12-2005 ).
+      </template>
+</category>
+
+<category>
+    <pattern>* MATRICULAR * ISOLADAS?</pattern>
+      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS?</srai></template>
+</category>
+
+<category>
+    <pattern>* MATRICULA * ISOLADAS?</pattern>
+      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS?</srai></template>
+</category>
+
+<!-- TROCA DE TURNO -->
   <category>
     <pattern>COMO MUDAR DE TURNO?</pattern>
       <template>

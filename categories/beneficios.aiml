@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 
+<!-- INFORMAÇÕES SOBRE O RU -->
+
   <category>
     <pattern>COMO COMER NO RU</pattern>
       <template>
@@ -14,9 +16,16 @@
   </category>
 
   <category>
+    <pattern>* COMER NO RESTAURANTE UNIVERSITÁRIO *</pattern>
+      <template><srai>COMO COMER NO RU</srai></template>
+  </category>
+
+  <category>
     <pattern>* RU *</pattern>
       <template><srai>COMO COMER NO RU</srai></template>
   </category>
+
+<!-- ASSISTÊNCIA MÉDICA E ODONTOLÓGICA -->
 
   <category>
   <pattern>ATENDIMENTO ODONTOLOGICO</pattern>
@@ -29,6 +38,8 @@
     <pattern>COMO * ODONTOLOGICO</pattern>
       <template><srai>ATENDIMENTO ODONTOLOGICO</srai></template>
   </category>
+
+<!-- BOLSAS -->
 
   <category>
     <pattern>RECEBER BOLSA</pattern>
@@ -46,6 +57,35 @@
     <pattern>QUERO * BOLSA *</pattern>
       <template><srai>RECEBER BOLSA</srai></template>
   </category>
+
+
+<!-- MONITORIA -->
+
+<category>
+    <pattern>COMO FUNCIONA MONITORIA?</pattern>
+      <template>
+          As monitorias funcionam no horário contrário às suas aulas. O horário varia de acordo com cada matéria, cada monitor fica durante o ano com a disciplina, e a cada ciclo sai um edital com as ofertas para novos monitores.
+      </template>
+  </category>
+
+  <category>
+    <pattern>COMO FUNCIONA A MONITORIA?</pattern>
+      <template><srai>COMO FUNCIONA MONITORIA?</srai></template>
+  </category>
+
+<category>
+    <pattern>COMO SER MONITOR?</pattern>
+      <template>
+          Você vai precisar se inscrever em um formulário que a secretaria ou o professor responsável vai enviar pelo email institucional, ao preencher esse formulário, vai ter uma prova com os conhecimentos daquela matéria, a média da nota para ser aprovado é 7. Para ser um monitor de uma disciplina você precisa ter sido aprovada nela com nota mínima de 7.
+      </template>
+  </category>
+
+  <category>
+    <pattern>COMO * SER MONITOR?</pattern>
+      <template><srai>COMO SER MONITOR?</srai></template>
+  </category>
+
+<!-- EXTENSÃO E PESQUISA -->
 
 <category>
     <pattern>ENTRAR EM EXTENSAO/PESQUISA</pattern>
@@ -74,31 +114,7 @@
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
-<category>
-    <pattern>COMO FUNCIONA MONITORIA?</pattern>
-      <template>
-          As monitorias funcionam no horário contrário às suas aulas. O horário varia de acordo com cada matéria, cada monitor fica durante o ano com a disciplina, e a cada ciclo sai um edital com as ofertas para novos monitores.
-      </template>
-  </category>
-
   <category>
-    <pattern>COMO FUNCIONA A MONITORIA?</pattern>
-      <template><srai>COMO FUNCIONA MONITORIA?</srai></template>
-  </category>
-
-<category>
-    <pattern>COMO SER MONITOR?</pattern>
-      <template>
-          Você vai precisar se inscrever em um formulário que a secretaria ou o professor responsável vai enviar pelo email institucional, ao preencher esse formulário, vai ter uma prova com os conhecimentos daquela matéria, a média da nota para ser aprovado é 7. Para ser um monitor de uma disciplina você precisa ter sido aprovada nela com nota mínima de 7.
-      </template>
-  </category>
-
-  <category>
-    <pattern>COMO * SER MONITOR?</pattern>
-      <template><srai>COMO SER MONITOR?</srai></template>
-  </category>
-
-    <category>
     <pattern>GRUPOS DE PESQUISA?</pattern>
       <template>
         NEES, núcleo de excelência em tecnologias educacionais (contato); 
@@ -131,6 +147,8 @@
     <pattern>QUAIS * PROJETOS DE EXTENSAO * ?</pattern>
       <template><srai>GRUPOS DE EXTENSAO?</srai></template>
   </category>
+
+<!-- EMAIL INSTITUCIONAL -->
 
     <category>
     <pattern>COMO CONSEGUIR EMAIL INSTITUCIONAL?</pattern>

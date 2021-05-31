@@ -116,7 +116,7 @@
     </template>
   </category>
 
- 
+ <!-- REPROVAÇÃO -->
 
   <category>
     <pattern>O QUE ACONTECE SEU EU REPROVAR?</pattern>
@@ -146,6 +146,8 @@
     </template>
   </category>
 
+<!-- FLUXO PADRÃO E INDIVIDUAL -->
+
   <category>
     <pattern>FLUXO PADRÃO FLUXO INDIVIDUAL?</pattern>
     <template>
@@ -166,6 +168,8 @@
       <srai>FLUXO PADRÃO FLUXO INDIVIDUAL?</srai>
     </template>
   </category>
+
+<!-- SISTEMA DE AVALIAÇÃO -->
 
   <category>
     <pattern>O QUE É AB1 E AB2?</pattern>
@@ -195,6 +199,8 @@
     </template>
   </category>
 
+<!-- COORDENAÇÃO DE CURSO -->
+
   <category>
     <pattern>COORDENADOR DO CURSO?</pattern>
     <template>
@@ -209,6 +215,8 @@
     </template>
   </category>
 
+<!-- PROFESSORES -->
+
   <category>
     <pattern>EMAIL DO PROFESSOR?</pattern>
     <template>
@@ -222,6 +230,8 @@
       <srai>EMAIL DO PROFESSOR?</srai>
     </template>
   </category>
+
+<!-- SISTEMAS DA UFAL -->
 
   <category>
     <pattern>SIGAA E SIEWEB?</pattern>
