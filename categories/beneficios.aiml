@@ -25,21 +25,65 @@
       <template><srai>COMO COMER NO RU</srai></template>
   </category>
 
-<!-- ASSISTÊNCIA MÉDICA E ODONTOLÓGICA -->
+<!-- ASSISTÊNCIA MÉDICA -->
 
   <category>
   <pattern>ATENDIMENTO ODONTOLOGICO</pattern>
-  <template>
-        Você vai precisar fazer um cadastro na PROEX (localizado na reitoria) , depois de preenchido, você vai no bloco de odontologia para poder marcar a sua consulta.
-  </template>
+    <template>
+      Você vai precisar fazer um cadastro na PROEX (localizado na reitoria) , depois de preenchido, você vai no bloco de odontologia para poder marcar a sua consulta.
+    </template>
   </category>
 
     <category>
-    <pattern>COMO * ODONTOLOGICO</pattern>
+    <pattern>COMO * ODONTOLOGICO?</pattern>
       <template><srai>ATENDIMENTO ODONTOLOGICO</srai></template>
   </category>
 
-<!-- BOLSAS -->
+ <category>
+  <pattern>ATENDIMENTO MEDICO</pattern>
+    <template>
+    Os estudantes da Ufal podem solicitar agendamento de especialidades médicas pelo Hospital Universitário (HU). Para solicitar o atendimento é necessário comparecer à GAE (Gerência de Assistência Estudantil da Pró-reitoria Estudantil) munido de Comprovante de Matrícula autenticado pelo Departamento de Registro e Controle Acadêmico (DRCA) e documento de identificação com foto e identificar a especialidade para a qual deseja atendimento.
+    </template>
+  </category>
+
+  <category>
+    <pattern>COMO * MEDICO?</pattern>
+      <template><srai>ATENDIMENTO MEDICO</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO * NO HU?</pattern>
+      <template><srai>ATENDIMENTO MEDICO</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO * NO HOSPITAL UNIVERSITARIO?</pattern>
+      <template><srai>ATENDIMENTO MEDICO</srai></template>
+  </category>
+
+<category>
+  <pattern>ATENDIMENTO PSICOLOGICO</pattern>
+    <template>
+    A Proest (Pró-reitoria Estudantil) realiza acolhimento de estudantes por psicólogos para orientação ou encaminhamento para rede SUS. Para agendar acolhimento psicológico o estudante precisa levar Comprovante de Matrícula autenticado pelo Departamento de Registro e Controle Acadêmico (DRCA) e documento de identificação com foto para a Gerência de Assistência Estudantil (GAE/Proest).    
+    </template>
+  </category>
+
+<category>
+    <pattern>COMO * PSICOLOGICO?</pattern>
+      <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
+  </category>
+
+<category>
+    <pattern>COMO * PSICOLOGO?</pattern>
+      <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
+</category>
+
+<category>
+    <pattern>* PSICOLOGO?</pattern>
+      <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
+</category>
+
+<!-- BOLSAS E AUXÍLIOS -->
 
   <category>
     <pattern>RECEBER BOLSA</pattern>
@@ -58,6 +102,27 @@
       <template><srai>RECEBER BOLSA</srai></template>
   </category>
 
+  <category>
+    <pattern>AUXILIO APRESENTAÇÃO DE TRABALHO</pattern>
+      <template>
+      Os estudantes que vão apresentar trabalho em encontros e congressos acadêmicos fora do Estado de Alagoas podem solicitar ajuda de custo à Pró-reitoria Estudantil (Proest). Para solicitar o auxílio, o estudante deve comparecer à secretaria da Proest, até 15 dias antes do início do evento, munido dos seguintes documentos: Memorando assinado pelo/a coordenador/a do curso ou diretor/a da Unidade Acadêmica solicitando a ajuda de custo para o estudante; Carta de Aceite do trabalho pela organização do evento; Resumo do trabalho que será apresentado. Após o evento o estudante deverá levar à Proest original e cópia do certificado de apresentação do trabalho para que o pagamento da ajuda de custo possa ser liberado.      
+      </template>
+  </category>
+
+  <category>
+    <pattern>* AJUDA DE CUSTO PARA APRESENTAÇÃO DE TRABALHO *</pattern>
+      <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
+  </category>
+
+ <category>
+    <pattern>* AUXILIO PARA APRESENTAÇÃO DE TRABALHO *</pattern>
+      <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
+  </category>
+
+ <category>
+    <pattern>* AJUDA PARA APRESENTAÇÃO DE TRABALHO *</pattern>
+      <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
+  </category>
 
 <!-- MONITORIA -->
 
@@ -150,7 +215,7 @@
 
 <!-- EMAIL INSTITUCIONAL -->
 
-    <category>
+  <category>
     <pattern>COMO CONSEGUIR EMAIL INSTITUCIONAL?</pattern>
       <template>
         O e-mail institucional deve ser solicitado ao técnico/professor Lucas Amorim e deve ser feito rápido pois é o canal de comunicação oficial do instituto. Através dele o aluno pode participar dos canais de avisos institucionais e se comunicar com professores e com a gestão.
@@ -173,5 +238,36 @@
     <pattern>* BENEFICIOS DO EMAIL INSTITUCIONAL?</pattern>
       <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL?</srai></template>
   </category>
+
+<!-- TRANSPAL -->
+
+<category>
+    <pattern>CARTERINHA TRANSPAL</pattern>
+      <template>
+      <srai>
+      Para saber essas e outras informações a respeito do cartão estudantil, acesse este link: https://www.cartaobemlegal.com.br/cartao-escolar/.
+      </srai>
+      </template>
+</category>
+
+<category>
+    <pattern>* CARTERINHA TRANSPAL *</pattern>
+      <template><srai>CARTERINHA TRANSPAL</srai></template>
+</category>
+
+<category>
+    <pattern>* CARTÃO ESTUDANTIL *</pattern>
+      <template><srai>CARTERINHA TRANSPAL</srai></template>
+</category>
+
+<category>
+    <pattern>* CARTÃO * TRANSPAL *</pattern>
+      <template><srai>CARTERINHA TRANSPAL</srai></template>
+</category>
+
+<category>
+    <pattern>* CARTEIRINHA * TRANSPAL *</pattern>
+      <template><srai>CARTERINHA TRANSPAL</srai></template>
+</category>
 
 </aiml>

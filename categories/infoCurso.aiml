@@ -23,6 +23,27 @@
     </template>
   </category>
 
+<category>
+    <pattern>HORARIOS DE AULA</pattern>
+    <template>
+	    O Instituto de Computação oferece aulas nos turnos matutino (7h30-12h50) e vespertino (13h30-17h50).
+      </template>
+  </category>
+
+ <category>
+    <pattern>QUAIS SÃO OS HORÁRIOS DE AULA?</pattern>
+    <template>
+      <srai>HORARIOS DE AULA</srai>
+    </template>
+  </category>
+
+ <category>
+    <pattern>* HORÁRIOS DE AULA *</pattern>
+    <template>
+      <srai>HORARIOS DE AULA</srai>
+    </template>
+  </category>
+
 <!-- DOCUMENTOS -->
 
   <category>
@@ -215,6 +236,44 @@
     </template>
   </category>
 
+<!-- SECRETARIA -->
+
+<category>
+  <pattern>NUMERO SECRETARIA</pattern>
+    <template>
+    Para contactar a secretaria do IC, ligue para (82) 3214-1401.
+    </template>
+</category>
+
+<category>
+  <pattern>QUAL O NÚMERO DA SECRETARIA?</pattern>
+    <template><srai>NUMERO SECRETARIA</srai></template>
+</category>
+
+<category>
+  <pattern>QUAL O CONTATO DA SECRETARIA?</pattern>
+    <template><srai>NUMERO SECRETARIA</srai></template>
+</category>
+
+<category>
+  <pattern>COMO LIGAR PARA A SECRETARIA?</pattern>
+    <template><srai>NUMERO SECRETARIA</srai></template>
+</category>
+
+<category>
+  <pattern>EMAIL SECRETARIA</pattern>
+    <template>
+    O email da secretaria é secretaria@ic.ufal.br.
+    </template>
+</category>
+
+<category>
+  <pattern>* EMAIL * SECRETARIA?</pattern>
+    <template>
+    O email da secretaria é secretaria@ic.ufal.br.
+    </template>
+</category>
+
 <!-- PROFESSORES -->
 
   <category>
@@ -253,4 +312,95 @@
       <srai>SIGAA E SIEWEB?</srai>
     </template>
   </category>
+
+<!-- CALENDÁRIO ACADÊMICO -->
+
+ <category>
+    <pattern>CALENDÁRIO ACADÊMICO</pattern>
+    <template>
+    Para saber informações sobre o início das aulas, é possível visualizar o calendário acadêmico através deste link: https://ufal.br/estudante/graduacao/calendario-academico.
+    </template>
+  </category>
+
+<category>
+    <pattern>* CALENDÁRIO ACADÊMICO?</pattern>
+      <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
+</category>
+
+<category>
+  <pattern>* CALENDÁRIO ACADÊMICO?</pattern>
+    <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
+</category>
+
+<category>
+  <pattern>QUANDO COMEÇAM AS AULAS?</pattern>
+    <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
+</category>
+  
+<category>
+  <pattern>QUANDO COMEÇAM AS AULAS?</pattern>
+    <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
+</category> 
+
+<category>
+    <pattern>QUANDO * AS AULAS?</pattern>
+      <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
+  </category>
+
+<!--DIRETÓRIO ACADÊMICO-->
+
+<category>
+    <pattern>DIACOM</pattern>
+    <template>
+    O Diretório Acadêmico de Computação é uma entidade formada por estudantes dos cursos de Ciência e Engenharia de Computação do Instituto de Computação da UFAL, que tem como objetivo principal representar os estudantes e repassar suas demandas para a coordenação, direção e demais entidades.
+    </template>
+  </category>
+
+<category>
+    <pattern>O QUE É O DIACOM?</pattern>
+      <template><srai>DIACOM</srai></template>
+</category>
+
+<category>
+    <pattern>O QUE É O DIRETÓRIO ACADÊMICO?</pattern>
+      <template><srai>DIACOM</srai></template>
+</category>
+
+<category>
+    <pattern>FUNCOES DIACOM</pattern>
+    <template>
+    O Diretório atua principalmente representando os estudantes e repassando suas demandas para a coordenação, direção e demais entidades. Seja recepcionando, auxiliando, comunicando ou reivindicando, o DIACOM tem seu propósito claro: ajudar a manter no IC um ambiente organizado e colaborativo, incentivando as boas práticas na universidade e mantendo a boa relação entre os alunos e professores (coordenadores e diretor inclusos).     
+    </template>
+  </category>
+
+<category>
+    <pattern>O QUE O DIACOM FAZ?</pattern>
+      <template><srai>FUNCOES DIACOM</srai></template>
+</category>
+
+<category>
+    <pattern>O QUE O DIRETÓRIO ACADÊMICO FAZ?</pattern>
+      <template><srai>FUNCOES DIACOM</srai></template>
+</category>
+
+<category>
+    <pattern>* FUNÇÕES DO DIRETÓRIO ACADÊMICO?</pattern>
+      <template><srai>FUNCOES DIACOM</srai></template>
+</category>
+
+<category>
+    <pattern>* FUNÇÕES DO DIACOM?</pattern>
+      <template><srai>FUNCOES DIACOM</srai></template>
+</category>
+
+<category>
+    <pattern>* FUNÇÕES DO DIRETÓRIO ACADÊMICO</pattern>
+      <template><srai>FUNCOES DIACOM</srai></template>
+</category>
+
+<category>
+    <pattern>* FUNÇÕES DO DIACOM *</pattern>
+      <template><srai>FUNCOES DIACOM</srai></template>
+</category>
+
 </aiml>

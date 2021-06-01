@@ -246,4 +246,112 @@
       <template><srai>COMO MUDAR DE TURNO?</srai></template>
 </category>
 
+<!-- INTEGRALIZAÇÃO DE CURSO -->
+
+<category>
+    <pattern>INTEGRALIZAÇÃO DE CURSO</pattern>
+      <template>
+      Acesse e preencha o formulário específico disponível em: http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/requerimento-geral-drca/ , anexe a cópia da documentação exigida (conforme as instruções descritas no formulário). Se dirija ao DRCA para autenticação da cópia dos documentos e em seguida ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.
+      </template>
+</category>
+
+<category>
+    <pattern>COMO * PRAZO DA INTEGRALIZAÇÃO DE CURSO?</pattern>
+      <template><srai>INTEGRALIZAÇÃO DE CURSO</srai></template>
+</category>
+
+<category>
+    <pattern>* PRORROGAR A INTEGRALIZAÇÃO DE CURSO *</pattern>
+      <template><srai>INTEGRALIZAÇÃO DE CURSO</srai></template>
+</category>
+
+<!-- TRANSFERÊNCIA EXTERNA -->
+
+<category>
+    <pattern>TRANSFERENCIA EXTERNA</pattern>
+      <template>
+      O aluno da UFAL que pretende ir para outra universidade deve buscar na instituição de destino a forma de ingresso. Uma vez que saiba como (através de edital, presumivelmente), ele deverá se inscrever no processo seletivo, concorrer a vaga e obter êxito na aprovação. Tão logo seja selecionada, a universidade de destino solicitará a UFAL o envio de documentação (Declaração de Vaga, documento que atesta que o aluno é discente da UFAL e que ela está repassando a vaga para a outra universidade, com todos os encargos públicos). O aluno não precisará manter nenhum contato com a UFAL. Ele não precisa ir ao Colegiado, Coordenação do Curso, nem ao DRCA, basta que procure na outra universidade, o edital específico, concorra na seleção e seja aprovado. Quando a transferência for deferida na instituição pretendida, o interessado deverá solicitar através de processo, anexando ao mesmo cópia do RG autenticada e nada consta da biblioteca, oficializando seu pedido de transferência junto ao DRCA/UFAL. O interessado poderá também constituir procurador para essa solicitação.
+      </template>
+</category>
+
+<category>
+    <pattern>COMO REALIZO TRANSFERENCIA EXTERNA?</pattern>
+      <template><srai>TRANSFERENCIA EXTERNA</srai></template>
+</category>
+
+<category>
+    <pattern>COMO FUNCIONA A TRANSFERENCIA EXTERNA?</pattern>
+      <template><srai>TRANSFERENCIA EXTERNA</srai></template>
+</category>
+
+<category>
+    <pattern>COMO ME TRANSFERIR PARA OUTRA UNIVERSIDADE?</pattern>
+      <template><srai>TRANSFERENCIA EXTERNA</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSFERIR PARA OUTRA UNIVERSIDADE?</pattern>
+      <template><srai>TRANSFERENCIA EXTERNA</srai></template>
+</category>
+
+<category>
+    <pattern>INGRESSAR POR TRANSFERENCIA EXTERNA</pattern>
+      <template>
+      O ingresso é realizado conforme edital disponível em: http://copeve.ufal.br/ . O período de publicação do edital fica destacado no Calendário Acadêmico (http://www.ufal.edu.br/estudante/o-estudante/calendario-academico ). Caso obtenha êxito no processo seletivo, a UFAL solicitará o envio de documentação a universidade de origem para que seja efetuada a matrícula.
+      </template>
+</category>
+
+<category>
+    <pattern>COMO * NA UFAL POR TRANSFERENCIA EXTERNA?</pattern>
+      <template><srai>INGRESSAR POR TRANSFERENCIA EXTERNA</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSFERIR PARA A UFAL *</pattern>
+      <template><srai>INGRESSAR POR TRANSFERENCIA EXTERNA</srai></template>
+</category>
+
+<category>
+    <pattern>* TRANSFIRO PARA A UFAL *</pattern>
+      <template><srai>INGRESSAR POR TRANSFERENCIA EXTERNA</srai></template>
+</category>
+
+<category>
+    <pattern>* INGRESSO NA UFAL POR TRANSFERENCIA EXTERNA?</pattern>
+      <template><srai>INGRESSAR POR TRANSFERENCIA EXTERNA</srai></template>
+</category>
+
+<!-- REINGRESSO -->
+
+<category>
+    <pattern>REINGRESSO</pattern>
+      <template>
+      Acesse e preencha o formulário específico disponível em: http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/requerimento-geral-drca/  , anexe a cópia da documentação exigida (conforme as instruções descritas no formulário). Se dirija ao DRCA para autenticação da cópia dos documentos e em seguida ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.
+      </template>
+</category>
+
+<category>
+    <pattern>* REINGRESSO?</pattern>
+      <template><srai>REINGRESSO</srai></template>
+</category>
+
+<!-- REOPÇÃO DE CURSO -->
+
+<category>
+    <pattern>REOPÇÃO</pattern>
+      <template>
+      Através do processo seletivo de reopção e mudança de turno para cursos de graduação disponível em: http://copeve.ufal.br/ . O período de publicação do edital fica destacado no Calendário Acadêmico.
+      </template>
+</category>
+
+<category>
+    <pattern>* REOPÇÃO?</pattern>
+      <template><srai>REOPÇÃO</srai></template>
+</category>
+
+<category>
+    <pattern>* REOPÇÃO *</pattern>
+      <template><srai>REOPÇÃO</srai></template>
+</category>
+
 </aiml>
