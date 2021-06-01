@@ -203,7 +203,7 @@
   </category>
 
     <category>
-    <pattern>QUAIS * PROJETOS DE PESQUISA</pattern>
+    <pattern>QUAIS * DE PESQUISA</pattern>
       <template><srai>GRUPOS DE PESQUISA</srai></template>
   </category>
 
@@ -215,7 +215,7 @@
   </category>
 
     <category>
-    <pattern>QUAIS * PROJETOS DE EXTENSAO</pattern>
+    <pattern>QUAIS * DE EXTENSAO</pattern>
       <template><srai>GRUPOS DE EXTENSAO</srai></template>
   </category>
 
