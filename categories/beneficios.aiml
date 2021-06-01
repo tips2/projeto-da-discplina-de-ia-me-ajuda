@@ -40,12 +40,12 @@
   <category>
   <pattern>ATENDIMENTO ODONTOLOGICO</pattern>
     <template>
-      Você vai precisar fazer um cadastro na PROEX (localizado na reitoria) , depois de preenchido, você vai no bloco de odontologia para poder marcar a sua consulta.
+      Você vai precisar fazer um cadastro na PROEX (localizado na reitoria), depois de preenchido, você vai no bloco de odontologia para poder marcar a sua consulta.
     </template>
   </category>
 
     <category>
-    <pattern>COMO * ODONTOLOGICO</pattern>
+    <pattern>* ODONTOLOGICO</pattern>
       <template><srai>ATENDIMENTO ODONTOLOGICO</srai></template>
   </category>
 
@@ -57,7 +57,7 @@
   </category>
 
   <category>
-    <pattern>COMO * MEDICO</pattern>
+    <pattern>* MEDICO</pattern>
       <template><srai>ATENDIMENTO MEDICO</srai></template>
   </category>
 
@@ -79,7 +79,7 @@
   </category>
 
 <category>
-    <pattern>COMO * PSICOLOGICO</pattern>
+    <pattern>* PSICOLOGICO</pattern>
       <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
   </category>
 
