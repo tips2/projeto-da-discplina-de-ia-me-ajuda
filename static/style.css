@@ -77,8 +77,8 @@ a:hover {
 #formwrapper {
     margin:0 auto;
     padding-bottom:5px;
-    background:#EBF4FB;
-    border:1px solid #ACD8F0;
+    background:#dbe4ff;
+    border:1px solid #6871ec;
     height: 100%;
 }
 
@@ -94,7 +94,7 @@ a:hover {
     margin:0 auto;
     margin-bottom:25px;
     padding:5px;
-    background:#fff;
+    background:rgb(255, 251, 251);
     width: 100%;
     height: 400px;
     /* border:1px solid #ACD8F0; */

@@ -30,7 +30,7 @@ $(document).ready(function(){
                     if (saida != '.' && saida.trim() != '') {
                         // delay
                         msg.text = msg.text + saida
-                        $("#chatbox").append ("<p><b>Ari:</b> "+saida+"</p>" );
+                        $("#chatbox").append ("<p><b>Cris:</b> "+saida+"</p>" );
                         $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
                     }
 

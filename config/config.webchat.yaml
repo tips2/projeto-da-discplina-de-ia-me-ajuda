@@ -137,7 +137,7 @@ webchat:
 
 bot:
     brain: brain
-    initial_question: OlÁ. Eu sou um chatbot e meu nome é Covid Tips. Para iniciar uma conversar sobre a covid digite "iniciar", em qualquer momento você pode escrever "sair", "reiniciar" ou "repetir".
+    initial_question: OlÁ. Eu sou um chatbot e meu nome é Cris. Para iniciar uma conversar faça uma pergunta, ficarei feliz em te ajudar.
     initial_question_srai: YINITIALQUESTION
     default_response: Desculpe, Não entendi!
     default_response_srai: YEMPTY
