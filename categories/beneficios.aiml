@@ -16,22 +16,22 @@
   </category>
 
   <category>
-    <pattern>* COMER NO RESTAURANTE UNIVERSITÁRIO *</pattern>
+    <pattern>* COMER NO RESTAURANTE UNIVERSITÁRIO</pattern>
       <template><srai>COMO COMER NO RU</srai></template>
   </category>
 
   <category>
-    <pattern>* RU *</pattern>
+    <pattern>* RU</pattern>
       <template><srai>COMO COMER NO RU</srai></template>
   </category>
 
   <category>
-    <pattern>* RESTAURANTE UNIVERSITARIO *</pattern>
+    <pattern>* RESTAURANTE UNIVERSITARIO</pattern>
       <template><srai>COMO COMER NO RU</srai></template>
   </category>
 
   <category>
-    <pattern>* RESTAURANTE UNIVERSITÁRIO *</pattern>
+    <pattern>* RESTAURANTE UNIVERSITÁRIO</pattern>
       <template><srai>COMO COMER NO RU</srai></template>
   </category>
 
