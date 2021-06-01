@@ -25,12 +25,12 @@ $(document).ready(function(){
 
                 len_lista_saida = lista_saidas.length;
                 msg.text = ''
-                for (i=0 ; i<len_lista_saida; i++) {
+                for (i=0 ; i<1; i++) {
                     saida = lista_saidas[i];
                     if (saida != '.' && saida.trim() != '') {
                         // delay
                         msg.text = msg.text + saida
-                        $("#chatbox").append ("<p><b>Cris:</b> "+saida+"</p>" );
+                        $("#chatbox").append ("<p><b>Cris:</b> "+lista_saidas+"</p>" );
                         $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
                     }
 
