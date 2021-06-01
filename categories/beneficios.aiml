@@ -25,6 +25,16 @@
       <template><srai>COMO COMER NO RU</srai></template>
   </category>
 
+  <category>
+    <pattern>* RESTAURANTE UNIVERSITARIO *</pattern>
+      <template><srai>COMO COMER NO RU</srai></template>
+  </category>
+
+  <category>
+    <pattern>* RESTAURANTE UNIVERSITÁRIO *</pattern>
+      <template><srai>COMO COMER NO RU</srai></template>
+  </category>
+
 <!-- ASSISTÊNCIA MÉDICA -->
 
   <category>
