@@ -165,27 +165,27 @@
 <category>
     <pattern>ENTRAR EM EXTENSAO/PESQUISA</pattern>
       <template>
-          Interesse, a maioria dos professores do instituto tem projeto de pesquisa, dependendo do seu curso, você pode conversar com um professor da sua área de interesse e falar que quer entrar em um projeto de pesquisa/extensão com ele/ela.
+          Para participar de um grupo ou projeto de pesquisa, basta apenas ter interesse. A maioria dos professores do instituto tem projeto de pesquisa, dependendo do seu curso, você pode conversar com um professor da sua área de interesse e falar que quer entrar em um projeto de pesquisa/extensão com ele/ela.
       </template>
   </category>
 
   <category>
-    <pattern>QUERO * PROJETO DE EXTENSAO</pattern>
+    <pattern>QUERO * DE EXTENSAO</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
   <category>
-    <pattern>COMO * PROJETO DE EXTENSAO</pattern>
+    <pattern>COMO * DE EXTENSAO</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
   <category>
-    <pattern>QUERO * PROJETO DE PESQUISA</pattern>
+    <pattern>QUERO * DE PESQUISA</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
   <category>
-    <pattern>COMO * PROJETO DE PESQUISA</pattern>
+    <pattern>COMO * DE PESQUISA</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
@@ -193,7 +193,7 @@
     <pattern>GRUPOS DE PESQUISA</pattern>
       <template>
         NEES, núcleo de excelência em tecnologias educacionais (contato); 
-        EDGE, centro de inovação (contato);
+        EDGE, Centro de Inovação (contato);
         CPTE, Centro de Pesquisa em Tecnologias Emergentes;
         BrAIN, Brazilian Artificial Intelligence Networking in Medicine;
         EASY, Engineering and Systems Group; 
