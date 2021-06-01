@@ -45,7 +45,7 @@
   </category>
 
     <category>
-    <pattern>COMO * ODONTOLOGICO?</pattern>
+    <pattern>COMO * ODONTOLOGICO</pattern>
       <template><srai>ATENDIMENTO ODONTOLOGICO</srai></template>
   </category>
 
@@ -57,17 +57,17 @@
   </category>
 
   <category>
-    <pattern>COMO * MEDICO?</pattern>
+    <pattern>COMO * MEDICO</pattern>
       <template><srai>ATENDIMENTO MEDICO</srai></template>
   </category>
 
   <category>
-    <pattern>COMO * NO HU?</pattern>
+    <pattern>COMO * NO HU</pattern>
       <template><srai>ATENDIMENTO MEDICO</srai></template>
   </category>
 
   <category>
-    <pattern>COMO * NO HOSPITAL UNIVERSITARIO?</pattern>
+    <pattern>COMO * NO HOSPITAL UNIVERSITARIO</pattern>
       <template><srai>ATENDIMENTO MEDICO</srai></template>
   </category>
 
@@ -79,17 +79,17 @@
   </category>
 
 <category>
-    <pattern>COMO * PSICOLOGICO?</pattern>
+    <pattern>COMO * PSICOLOGICO</pattern>
       <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
   </category>
 
 <category>
-    <pattern>COMO * PSICOLOGO?</pattern>
+    <pattern>COMO * PSICOLOGO</pattern>
       <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
 </category>
 
 <category>
-    <pattern>* PSICOLOGO?</pattern>
+    <pattern>* PSICOLOGO</pattern>
       <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
 </category>
 
@@ -108,7 +108,7 @@
   </category>
 
   <category>
-    <pattern>QUERO * BOLSA *</pattern>
+    <pattern>QUERO * BOLSA</pattern>
       <template><srai>RECEBER BOLSA</srai></template>
   </category>
 
@@ -120,43 +120,43 @@
   </category>
 
   <category>
-    <pattern>* AJUDA DE CUSTO PARA APRESENTAÇÃO DE TRABALHO *</pattern>
+    <pattern>* AJUDA DE CUSTO PARA APRESENTAÇÃO DE TRABALHO</pattern>
       <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
   </category>
 
  <category>
-    <pattern>* AUXILIO PARA APRESENTAÇÃO DE TRABALHO *</pattern>
+    <pattern>* AUXILIO PARA APRESENTAÇÃO DE TRABALHO</pattern>
       <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
   </category>
 
  <category>
-    <pattern>* AJUDA PARA APRESENTAÇÃO DE TRABALHO *</pattern>
+    <pattern>* AJUDA PARA APRESENTAÇÃO DE TRABALHO</pattern>
       <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
   </category>
 
 <!-- MONITORIA -->
 
 <category>
-    <pattern>COMO FUNCIONA MONITORIA?</pattern>
+    <pattern>COMO FUNCIONA MONITORIA</pattern>
       <template>
           As monitorias funcionam no horário contrário às suas aulas. O horário varia de acordo com cada matéria, cada monitor fica durante o ano com a disciplina, e a cada ciclo sai um edital com as ofertas para novos monitores.
       </template>
   </category>
 
   <category>
-    <pattern>COMO FUNCIONA A MONITORIA?</pattern>
-      <template><srai>COMO FUNCIONA MONITORIA?</srai></template>
+    <pattern>COMO FUNCIONA A MONITORIA</pattern>
+      <template><srai>COMO FUNCIONA MONITORIA</srai></template>
   </category>
 
 <category>
-    <pattern>COMO SER MONITOR?</pattern>
+    <pattern>COMO SER MONITOR</pattern>
       <template>
           Você vai precisar se inscrever em um formulário que a secretaria ou o professor responsável vai enviar pelo email institucional, ao preencher esse formulário, vai ter uma prova com os conhecimentos daquela matéria, a média da nota para ser aprovado é 7. Para ser um monitor de uma disciplina você precisa ter sido aprovada nela com nota mínima de 7.
       </template>
   </category>
 
   <category>
-    <pattern>COMO * SER MONITOR?</pattern>
+    <pattern>COMO * SER MONITOR</pattern>
       <template><srai>COMO SER MONITOR?</srai></template>
   </category>
 
@@ -170,27 +170,27 @@
   </category>
 
   <category>
-    <pattern>QUERO * PROJETO DE EXTENSAO?</pattern>
+    <pattern>QUERO * PROJETO DE EXTENSAO</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
   <category>
-    <pattern>COMO * PROJETO DE EXTENSAO?</pattern>
+    <pattern>COMO * PROJETO DE EXTENSAO</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
   <category>
-    <pattern>QUERO * PROJETO DE PESQUISA?</pattern>
+    <pattern>QUERO * PROJETO DE PESQUISA</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
   <category>
-    <pattern>COMO * PROJETO DE PESQUISA?</pattern>
+    <pattern>COMO * PROJETO DE PESQUISA</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
   <category>
-    <pattern>GRUPOS DE PESQUISA?</pattern>
+    <pattern>GRUPOS DE PESQUISA</pattern>
       <template>
         NEES, núcleo de excelência em tecnologias educacionais (contato); 
         EDGE, centro de inovação (contato);
@@ -203,50 +203,46 @@
   </category>
 
     <category>
-    <pattern>QUAIS * PROJETOS DE PESQUISA * ?</pattern>
-      <template><srai>GRUPOS DE PESQUISA?</srai></template>
+    <pattern>QUAIS * PROJETOS DE PESQUISA</pattern>
+      <template><srai>GRUPOS DE PESQUISA</srai></template>
   </category>
 
       <category>
-    <pattern>GRUPOS DE EXTENSAO?</pattern>
+    <pattern>GRUPOS DE EXTENSAO</pattern>
       <template>
-        LACOMP, Liga Acadêmica de Computação;
-        Katie, grupo de mulheres do instituto de computação;
-        GEMA, grupo de maratonas de programação do Instituto de Computação; 
-        IEEE, ramo estudantil da UFAL.
-        Para conhecer mais grupos, acesse (https://ic.ufal.br/pesquisa/grupos-e-nucleos).
+        Alguns dos grupos de extensão são: LACOMP, Liga Acadêmica de Computação; Katie, grupo de mulheres do Instituto de Computação; GEMA, grupo de maratonas de programação do Instituto de Computação; IEEE, ramo estudantil da UFAL. Para conhecer mais grupos, acesse (https://ic.ufal.br/pesquisa/grupos-e-nucleos) ou entre em contato com a secretaria e/ou coordenação de seu curso.
         </template>
   </category>
 
     <category>
-    <pattern>QUAIS * PROJETOS DE EXTENSAO * ?</pattern>
-      <template><srai>GRUPOS DE EXTENSAO?</srai></template>
+    <pattern>QUAIS * PROJETOS DE EXTENSAO</pattern>
+      <template><srai>GRUPOS DE EXTENSAO</srai></template>
   </category>
 
 <!-- EMAIL INSTITUCIONAL -->
 
   <category>
-    <pattern>COMO CONSEGUIR EMAIL INSTITUCIONAL?</pattern>
+    <pattern>COMO CONSEGUIR EMAIL INSTITUCIONAL</pattern>
       <template>
         O e-mail institucional deve ser solicitado ao técnico/professor Lucas Amorim e deve ser feito rápido pois é o canal de comunicação oficial do instituto. Através dele o aluno pode participar dos canais de avisos institucionais e se comunicar com professores e com a gestão.
         </template>
   </category>
 
   <category>
-    <pattern>COMO CONSIGO O EMAIL INSTITUCIONAL?</pattern>
-      <template><srai>COMO CONSEGUIR EMAIL INSTITUCIONAL?</srai></template>
+    <pattern>COMO CONSIGO O EMAIL INSTITUCIONAL</pattern>
+      <template><srai>COMO CONSEGUIR EMAIL INSTITUCIONAL</srai></template>
   </category>
 
     <category>
-    <pattern>BENEFICIOS DO EMAIL INSTITUCIONAL?</pattern>
+    <pattern>BENEFICIOS DO EMAIL INSTITUCIONAL</pattern>
       <template>
         Além de ser o canal de comunicação oficial do instituto, com ele temos um drive ilimitado, acesso free em contas pro como do github, ferramentas da jetbrains free, Windowns free ….(tem muita coisa).
         </template>
   </category>
 
   <category>
-    <pattern>* BENEFICIOS DO EMAIL INSTITUCIONAL?</pattern>
-      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL?</srai></template>
+    <pattern>* BENEFICIOS DO EMAIL INSTITUCIONAL</pattern>
+      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
   </category>
 
 <!-- TRANSPAL -->
@@ -261,22 +257,22 @@
 </category>
 
 <category>
-    <pattern>* CARTERINHA TRANSPAL *</pattern>
+    <pattern>* CARTERINHA TRANSPAL</pattern>
       <template><srai>CARTERINHA TRANSPAL</srai></template>
 </category>
 
 <category>
-    <pattern>* CARTÃO ESTUDANTIL *</pattern>
+    <pattern>* CARTÃO ESTUDANTIL</pattern>
       <template><srai>CARTERINHA TRANSPAL</srai></template>
 </category>
 
 <category>
-    <pattern>* CARTÃO * TRANSPAL *</pattern>
+    <pattern>* CARTÃO * TRANSPAL</pattern>
       <template><srai>CARTERINHA TRANSPAL</srai></template>
 </category>
 
 <category>
-    <pattern>* CARTEIRINHA * TRANSPAL *</pattern>
+    <pattern>* CARTEIRINHA * TRANSPAL</pattern>
       <template><srai>CARTERINHA TRANSPAL</srai></template>
 </category>
 
