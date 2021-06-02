@@ -10,14 +10,14 @@
   </category>
 
   <category>
-    <pattern>INFORMAÇÕES  CURSO</pattern>
+    <pattern>INFORMAÇÕES * CURSO</pattern>
     <template>
       <srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO</srai>
     </template>
   </category>
 
   <category>
-    <pattern>INFORMAÇÕES  CURSO </pattern>
+    <pattern>INFORMAÇÕES * CURSO</pattern>
     <template>
       <srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO</srai>
     </template>
@@ -38,7 +38,7 @@
   </category>
 
  <category>
-    <pattern> HORÁRIOS DE AULA </pattern>
+    <pattern>* HORÁRIOS DE AULA </pattern>
     <template>
       <srai>HORARIOS DE AULA</srai>
     </template>
@@ -47,7 +47,7 @@
 <!-- DOCUMENTOS -->
 
   <category>
-    <pattern>DOCUMENTOS PENDENTES</pattern>
+    <pattern>* DOCUMENTOS PENDENTES</pattern>
     <template>
       Caso sejam documentos pendentes relativos a ingresso pelo sistema de cotas, os documentos deverão ser entregues no atendimento - COPEVE. Caso sejam documentos pendentes relativos a ingresso pelo sistema de ampla concorrência, os documentos deverão ser entregues na Secretaria do DRCA.
 	    </template>
@@ -63,7 +63,7 @@
 <!-- ÊNFASES -->
 
   <category>
-    <pattern>ENFASES</pattern>
+    <pattern>* ENFASES</pattern>
     <template>
         COMPUTAÇÃO VISUAL: área da ciência da computação que incide sobre os aspectos relacionados a técnicas de processamento, síntese, armazenamento, recuperação, visualização, e análise de imagens digitais.
         SISTEMAS DE COMPUTAÇÃO: área da ciência da computação que incide sobre os aspectos relacionados a hardware, sistemas embarcados, automação e controle; e robótica.
@@ -80,14 +80,14 @@
   </category>
 
   <category>
-    <pattern> AS ÊNFASES</pattern>
+    <pattern>* AS ÊNFASES</pattern>
     <template>
       <srai>ENFASES</srai>
     </template>
   </category>
 
   <category>
-    <pattern>QUAIS  ENFASES</pattern>
+    <pattern>QUAIS * ENFASES</pattern>
     <template>
       <srai>ENFASES</srai>
     </template>
@@ -101,7 +101,7 @@
   </category>
 
   <category>
-    <pattern>COMO  ENFASES</pattern>
+    <pattern>COMO * ENFASES</pattern>
     <template>
       <srai>COMO FUNCIONA AS ÊNFASES</srai>
     </template>
@@ -147,21 +147,21 @@
   </category>
 
   <category>
-    <pattern> SE EU REPROVAR</pattern>
+    <pattern>* SE EU REPROVAR</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
     </template>
   </category>
 
   <category>
-    <pattern> SE EU PERDER UMA MATÉRIA</pattern>
+    <pattern>* SE EU PERDER UMA MATÉRIA</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
     </template>
   </category>
 
   <category>
-    <pattern> SE EU PERDER UMA DISCIPLINA</pattern>
+    <pattern>* SE EU PERDER UMA DISCIPLINA</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
     </template>
@@ -268,27 +268,11 @@
 </category>
 
 <category>
-  <pattern> EMAIL  SECRETARIA</pattern>
+  <pattern>* EMAIL * SECRETARIA</pattern>
     <template>
     O email da secretaria é secretaria@ic.ufal.br.
     </template>
 </category>
-
-<!-- PROFESSORES -->
-
-  <category>
-    <pattern>EMAIL DO PROFESSOR</pattern>
-    <template>
-      Você pode encontrar nesse link: https://ic.ufal.br/institucional/docentes
-    </template>
-  </category>
-
-  <category>
-    <pattern>QUAL  EMAIL DO PROFESSOR </pattern>
-    <template>
-      <srai>EMAIL DO PROFESSOR</srai>
-    </template>
-  </category>
 
 <!-- SISTEMAS DA UFAL -->
 
@@ -300,14 +284,14 @@
   </category>
 
   <category>
-    <pattern> DIFERENÇA  SIEWEB E SIGAA</pattern>
+    <pattern> DIFERENÇA * SIEWEB E SIGAA</pattern>
     <template>
       <srai>SIGAA E SIEWEB</srai>
     </template>
   </category>
 
   <category>
-    <pattern> DIFERENÇA  SIGAA E SIEWEB</pattern>
+    <pattern> DIFERENÇA * SIGAA E SIEWEB</pattern>
     <template>
       <srai>SIGAA E SIEWEB</srai>
     </template>
@@ -323,7 +307,7 @@
   </category>
 
 <category>
-    <pattern> CALENDÁRIO ACADÊMICO</pattern>
+    <pattern>* CALENDÁRIO ACADÊMICO</pattern>
       <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
 </category>
 
@@ -343,7 +327,7 @@
 </category> 
 
 <category>
-    <pattern>QUANDO  AS AULAS</pattern>
+    <pattern>QUANDO * AS AULAS</pattern>
       <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
   </category>
 
@@ -384,22 +368,22 @@
 </category>
 
 <category>
-    <pattern> FUNÇÕES DO DIRETÓRIO ACADÊMICO</pattern>
+    <pattern>* FUNÇÕES DO DIRETÓRIO ACADÊMICO</pattern>
       <template><srai>FUNCOES DIACOM</srai></template>
 </category>
 
 <category>
-    <pattern> FUNÇÕES DO DIACOM</pattern>
+    <pattern>* FUNÇÕES DO DIACOM</pattern>
       <template><srai>FUNCOES DIACOM</srai></template>
 </category>
 
 <category>
-    <pattern> FUNÇÕES DO DIRETÓRIO ACADÊMICO</pattern>
+    <pattern>* FUNÇÕES DO DIRETÓRIO ACADÊMICO</pattern>
       <template><srai>FUNCOES DIACOM</srai></template>
 </category>
 
 <category>
-    <pattern> FUNÇÕES DO DIACOM </pattern>
+    <pattern>* FUNÇÕES DO DIACOM </pattern>
       <template><srai>FUNCOES DIACOM</srai></template>
 </category>
 

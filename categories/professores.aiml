@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>EMAIL DO PROFESSOR</pattern>
+    <template>
+      Você pode encontrar nesse link: https://ic.ufal.br/institucional/docentes
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL * EMAIL DO PROFESSOR </pattern>
+    <template>
+      <srai>EMAIL DO PROFESSOR</srai>
+    </template>
+  </category>
+
+  <category>
+        <pattern>QUEM É O PROFESSOR DE PROGRAMAÇAO 1</pattern>
+        <template>
+                Willy Tiengo e Rodrigo Paes
+        </template>
+        </category>
+      
+        <category>
+                <pattern>QUEM É O PROFESSOR DE GRAFOS</pattern>
+                <template>
+                        Ryan Gabriel Pinheiro
+                </template>
+                </category>
+
+<category>
+        <pattern>QUEM É O PROFESSOR DE PAA</pattern>
+        <template>
+                <srai>QUEM É O PROFESSOR DE GRAFOS</srai>
+        </template>
+        </category>
+
+        <category>
+        <pattern>QUEM É O PROFESSOR DE PROJETO DE ANALISE DE ALGORITMO</pattern>
+        <template>
+                <srai>QUEM É O PROFESSOR DE GRAFOS</srai>
+        </template>
+        </category>
+        
+        <category>
+        <pattern>QUEM É O PROFESSOR DE INTELIGENCIA ARTIFICIAL</pattern>
+        <template>
+                Evandro Barros
+        </template>
+        </category>
+                
+        <category>
+                <pattern>QUEM É O PROFESSOR DE TEORIA DA COMPUTAÇAO</pattern>
+                <template>
+                        Fabio paraguaçu
+                </template>
+                </category>
+</aiml>
