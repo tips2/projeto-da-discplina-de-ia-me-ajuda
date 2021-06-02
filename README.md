@@ -1,29 +1,28 @@
 
-## Installation in your enviroment
-$ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
+#### Projeto desenvolvido para a disciplina de Inteligência Artificial, ministrada pelo professor Evandro Barros e Giseldo Neo
+
+## Instalando as dependências
+$ git clone https://github.com/tips2/projeto-da-discplina-de-ia-me-ajuda.git
 
 $ pip install -r requirements.txt
 
-run client_web.py (python.exe client_web.py)
+run client_web.py (python3 client_web.py)
 
-access in your browser http://localhost:5000/
+acesse em seu navegador: http://127.0.0.1:5000/
 
-Tip: Use Pycharm
-Tip: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+Tip: Use o Pycharm
+Tip: Microsoft Visual C++ 14.0 ou superior. Pegue com "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-## Try on-line
+## Tente on-line
 
-There are a instance of this chatbot, with the converter, already configurated for tests available at https://botcris.herokuapp.com
-
-## Screens
-
+Existe uma instância deste chatbot, com o conversor, já configurado para testes disponíveis em https://botcris.herokuapp.com
 
 ### Chatbot 
 
-![chatbot screen](./images/screen_chatbot.png)
+![chatbot screen](./Cris.jpeg)
 
 ## Contact
 
-If you are with problems, want to participate (code or documentation), found a bug or even think this idea is cool contact me or open an issue, this will help the project a lot.
+Se você está com problemas, quer participar (código ou documentação), encontrou um bug ou até mesmo achou essa ideia legal entre em contato comigo ou abrir um problema, isso vai ajudar muito o projeto. 
  
-e-mail: giseldo@gmail.com
+e-mail: acng@ic.ufal.br, kab@ic.ufal.br, @nass@ic.ufal.br
