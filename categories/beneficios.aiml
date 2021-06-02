@@ -21,6 +21,11 @@
   </category>
 
   <category>
+    <pattern>* COMER NO RESTAURANTE UNIVERSITARIO</pattern>
+      <template><srai>COMO COMER NO RU</srai></template>
+  </category>
+
+  <category>
     <pattern>* RU</pattern>
       <template><srai>COMO COMER NO RU</srai></template>
   </category>
@@ -50,6 +55,11 @@
   </category>
 
  <category>
+    <pattern>* ODONTOLÓGICO</pattern>
+      <template><srai>ATENDIMENTO ODONTOLOGICO</srai></template>
+  </category>
+
+ <category>
   <pattern>ATENDIMENTO MEDICO</pattern>
     <template>
     Os estudantes da Ufal podem solicitar agendamento de especialidades médicas pelo Hospital Universitário (HU). Para solicitar o atendimento é necessário comparecer à GAE (Gerência de Assistência Estudantil da Pró-reitoria Estudantil) munido de Comprovante de Matrícula autenticado pelo Departamento de Registro e Controle Acadêmico (DRCA) e documento de identificação com foto e identificar a especialidade para a qual deseja atendimento.
@@ -62,12 +72,22 @@
   </category>
 
   <category>
+    <pattern>* MÉDICO</pattern>
+      <template><srai>ATENDIMENTO MEDICO</srai></template>
+  </category>
+
+  <category>
     <pattern>COMO * NO HU</pattern>
       <template><srai>ATENDIMENTO MEDICO</srai></template>
   </category>
 
   <category>
     <pattern>COMO * NO HOSPITAL UNIVERSITARIO</pattern>
+      <template><srai>ATENDIMENTO MEDICO</srai></template>
+  </category>
+
+   <category>
+    <pattern>COMO * NO HOSPITAL UNIVERSITÁRIO</pattern>
       <template><srai>ATENDIMENTO MEDICO</srai></template>
   </category>
 
@@ -83,13 +103,28 @@
       <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
   </category>
 
+  <category>
+    <pattern>* PSICOLÓGICO</pattern>
+      <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
+  </category>
+
 <category>
     <pattern>COMO * PSICOLOGO</pattern>
       <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
 </category>
 
 <category>
+    <pattern>COMO * PSICÓLOGO</pattern>
+      <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
+</category>
+
+<category>
     <pattern>* PSICOLOGO</pattern>
+      <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
+</category>
+
+<category>
+    <pattern>* PSICÓLOGO</pattern>
       <template><srai>ATENDIMENTO PSICOLOGICO</srai></template>
 </category>
 
@@ -120,17 +155,17 @@
   </category>
 
   <category>
-    <pattern>* AJUDA DE CUSTO PARA APRESENTAÇÃO DE TRABALHO</pattern>
+    <pattern>* AJUDA DE CUSTO * APRESENTAÇÃO DE TRABALHO</pattern>
       <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
   </category>
 
  <category>
-    <pattern>* AUXILIO PARA APRESENTAÇÃO DE TRABALHO</pattern>
+    <pattern>* AUXILIO * APRESENTAÇÃO DE TRABALHO</pattern>
       <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
   </category>
 
  <category>
-    <pattern>* AJUDA PARA APRESENTAÇÃO DE TRABALHO</pattern>
+    <pattern>* AJUDA * APRESENTAÇÃO DE TRABALHO</pattern>
       <template><srai>AUXILIO APRESENTAÇÃO DE TRABALHO</srai></template>
   </category>
 
@@ -175,7 +210,17 @@
   </category>
 
   <category>
+    <pattern>QUERO * DE EXTENSÃO</pattern>
+      <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
+  </category>
+
+  <category>
     <pattern>COMO * DE EXTENSAO</pattern>
+      <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
+  </category>
+
+<category>
+    <pattern>COMO * DE EXTENSÃO</pattern>
       <template><srai>ENTRAR EM EXTENSAO/PESQUISA</srai></template>
   </category>
 
@@ -219,17 +264,22 @@
       <template><srai>GRUPOS DE EXTENSAO</srai></template>
   </category>
 
+  <category>
+    <pattern>QUAIS * DE EXTENSÃO</pattern>
+      <template><srai>GRUPOS DE EXTENSAO</srai></template>
+  </category>
+
 <!-- EMAIL INSTITUCIONAL -->
 
   <category>
-    <pattern>COMO CONSEGUIR EMAIL INSTITUCIONAL</pattern>
+    <pattern>COMO * EMAIL INSTITUCIONAL</pattern>
       <template>
         O e-mail institucional deve ser solicitado ao técnico/professor Lucas Amorim e deve ser feito rápido pois é o canal de comunicação oficial do instituto. Através dele o aluno pode participar dos canais de avisos institucionais e se comunicar com professores e com a gestão.
         </template>
   </category>
 
   <category>
-    <pattern>COMO CONSIGO O EMAIL INSTITUCIONAL</pattern>
+    <pattern>COMO * E-MAIL INSTITUCIONAL</pattern>
       <template><srai>COMO CONSEGUIR EMAIL INSTITUCIONAL</srai></template>
   </category>
 
@@ -242,6 +292,11 @@
 
   <category>
     <pattern>* BENEFICIOS DO EMAIL INSTITUCIONAL</pattern>
+      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
+  </category>
+
+  <category>
+    <pattern>* BENEFICIOS DO E-MAIL INSTITUCIONAL</pattern>
       <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
   </category>
 
@@ -268,6 +323,16 @@
 
 <category>
     <pattern>* CARTÃO * TRANSPAL</pattern>
+      <template><srai>CARTERINHA TRANSPAL</srai></template>
+</category>
+
+<category>
+    <pattern>* CARTAO ESTUDANTIL</pattern>
+      <template><srai>CARTERINHA TRANSPAL</srai></template>
+</category>
+
+<category>
+    <pattern>* CARTAO * TRANSPAL</pattern>
       <template><srai>CARTERINHA TRANSPAL</srai></template>
 </category>
 
