@@ -26,19 +26,10 @@
   </category>
 
    <category>
-    <pattern>* HISTÓRICO ACADÊMICO</pattern>
-      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
-  </category>
-
-   <category>
     <pattern>* HISTORICO ANALITICO</pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
-  <category>
-    <pattern>* HISTÓRICO ANALITÍCO</pattern>
-      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
-  </category>
 
 <!-- SITUAÇÃO DE VÍNCULO -->
 
@@ -50,7 +41,7 @@
   </category>
 
   <category>
-    <pattern>ONDE VERIFICO MINHA SITUAÇÃO DE VINCULO</pattern>
+    <pattern>ONDE VERIFICO MINHA SITUACAO DE VINCULO</pattern>
       <template><srai>VINCULO</srai></template>
   </category>
 
@@ -64,10 +55,6 @@
       <template><srai>VINCULO</srai></template>
   </category>
 
- <category>
-    <pattern>* VÍNCULO</pattern>
-      <template><srai>VINCULO</srai></template>
-  </category>
 
 <!-- SOLICITAÇÃO DE DOCUMENTOS -->
 

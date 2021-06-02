@@ -16,17 +16,17 @@
   </category>
 
   <category>
-    <pattern>SOLICITAR * HISTORICO academico </pattern>
+    <pattern>SOLICITAR * HISTORICO ACADEMICO </pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
     <category>
-    <pattern>SOLICITAR * HISTORICO analitico</pattern>
+    <pattern>SOLICITAR * HISTORICO ANALITICO</pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
   <category>
-    <pattern>* SOLICITAR * HISTORICO analitico</pattern>
+    <pattern>* SOLICITAR * HISTORICO ANALITICO</pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
@@ -44,11 +44,6 @@
       <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
   </category>
 
-<category>
-    <pattern>* FORMULÁRIO * TRANSPAL</pattern>
-      <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
-  </category>
-
 <!-- ATESTADO MÉDICO -->
 
   <category>
@@ -59,7 +54,7 @@
   </category>
 
 <category>
-    <pattern>COMO JUSTIFICAR IDA AO MÉDICO</pattern>
+    <pattern>COMO JUSTIFICAR IDA AO MEDICO</pattern>
       <template><srai>JUSTIFICAR ATESTADO MEDICO</srai></template>
   </category>
 

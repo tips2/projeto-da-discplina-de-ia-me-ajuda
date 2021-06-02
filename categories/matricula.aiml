@@ -48,7 +48,7 @@
 </category>
 
 <category>
-    <pattern>* TRANCAR A MATRÍCULA NO CURSO</pattern>
+    <pattern>* TRANCAR A MATRICULA NO CURSO</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE</srai></template>
 </category>
 
@@ -60,12 +60,12 @@
   </category>
 
 <category>
-    <pattern>O QUE É TRANCAMENTO DE MATRÍCULA NO CURSO</pattern>
+    <pattern>O QUE E TRANCAMENTO DE MATRICULA NO CURSO</pattern>
       <template><srai>COMO FUNCIONA O TRANCAMENTO DE MATRICULA?</srai></template>
 </category>
 
 <category>
-    <pattern>O QUE É TRANCAMENTO DE CURSO</pattern>
+    <pattern>O QUE E TRANCAMENTO DE CURSO</pattern>
       <template><srai>COMO FUNCIONA O TRANCAMENTO DE MATRICULA</srai></template>
 </category>
 
@@ -210,7 +210,7 @@
 </category>
 
 <category>
-    <pattern>COMO * MATÉRIAS DE OUTRO CURSO</pattern>
+    <pattern>COMO * MATERIAS DE OUTRO CURSO</pattern>
       <template><srai>VAGAS REMANESCENTES</srai></template>
 </category>
 
@@ -249,19 +249,19 @@
 <!-- INTEGRALIZAÇÃO DE CURSO -->
 
 <category>
-    <pattern>INTEGRALIZAÇÃO DE CURSO</pattern>
+    <pattern>INTEGRALIZACAO DE CURSO</pattern>
       <template>
       Acesse e preencha o formulário específico disponível em: http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/requerimento-geral-drca/ , anexe a cópia da documentação exigida (conforme as instruções descritas no formulário). Se dirija ao DRCA para autenticação da cópia dos documentos e em seguida ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.
       </template>
 </category>
 
 <category>
-    <pattern>COMO * PRAZO DA INTEGRALIZAÇÃO DE CURSO</pattern>
+    <pattern>COMO * PRAZO DA INTEGRALIZACAO DE CURSO</pattern>
       <template><srai>INTEGRALIZAÇÃO DE CURSO</srai></template>
 </category>
 
 <category>
-    <pattern>* PRORROGAR A INTEGRALIZAÇÃO DE CURSO</pattern>
+    <pattern>* PRORROGAR A INTEGRALIZACAO DE CURSO</pattern>
       <template><srai>INTEGRALIZAÇÃO DE CURSO</srai></template>
 </category>
 
@@ -338,19 +338,14 @@
 <!-- REOPÇÃO DE CURSO -->
 
 <category>
-    <pattern>REOPÇÃO</pattern>
+    <pattern>REOPCAO</pattern>
       <template>
       Através do processo seletivo de reopção e mudança de turno para cursos de graduação disponível em: http://copeve.ufal.br/ . O período de publicação do edital fica destacado no Calendário Acadêmico.
       </template>
 </category>
 
 <category>
-    <pattern>* REOPÇÃO</pattern>
-      <template><srai>REOPÇÃO</srai></template>
-</category>
-
-<category>
-    <pattern>* REOPÇÃO</pattern>
+    <pattern>* REOPCAO</pattern>
       <template><srai>REOPÇÃO</srai></template>
 </category>
 

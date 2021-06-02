@@ -39,35 +39,35 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE CÁLCULO 2</pattern>
+                <pattern>QUEM E O MONITOR DE CALCULO 2</pattern>
                         <template>
                                 Rafael Augusto Vilella de Albuquerque Lins
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE COMPUTAÇÃO, SOCIEDADE E ÉTICA</pattern>
+                <pattern>QUEM E O MONITOR DE COMPUTACAO, SOCIEDADE E ETICA</pattern>
                         <template>
                                 Rafael Emílio Lima Alves, João Vitor Santos Tavares e Rick Martim Lino dos Santos
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE PROBABILIDADE E ESTATÍSTICA</pattern>
+                <pattern>QUEM E O MONITOR DE PROBABILIDADE E ESTATISTICA</pattern>
                         <template>
                                 Michael Miller Rodrigues Cardoso
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE PROGRAMAÇÃO 1</pattern>
+                <pattern>QUEM E O MONITOR DE PROGRAMACAO 1</pattern>
                         <template>
                                 Robson Bruno Alves Pinheiro, José Arthur Lopes Sabino, Adeilton dos Santos Mesquita e Leonardo Zaia
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE MATEMÁTICA DISCRETA</pattern>
+                <pattern>QUEM E O MONITOR DE MATEMATICA DISCRETA</pattern>
                         <template>
                                 Murilo Urquiza e Afrânio Yago
                         </template>
@@ -81,14 +81,14 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE INTRODUÇAO A INFORMATICA</pattern>
+                <pattern>QUEM E O MONITOR DE INTRODUÇAO A INFORMATICA</pattern>
                         <template>
                                 Yanka Raissa Ribeiro e Mario Diego Ferreira
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE APRENDIZAGEM DE MAQUINA</pattern>
+                <pattern>QUEM E O MONITOR DE APRENDIZAGEM DE MAQUINA</pattern>
                         <template>
                                 Carlos Walter de Lima,
                                 Lucas Mendes Massa,
@@ -97,7 +97,7 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE SISTEMA DE CONTROLE</pattern>
+                <pattern>QUEM E O MONITOR DE SISTEMA DE CONTROLE</pattern>
                         <template>
                                 Tarcísio Lima Ferreira,
                                 Roger de Almeida Matos
@@ -105,7 +105,7 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE INTERAÇÃO HOMEM-MAQUINA</pattern>
+                <pattern>QUEM E O MONITOR DE INTERACAO HOMEM-MAQUINA</pattern>
                         <template>
                                 Rayssa Mayanara Roseno Silva
                         </template>
@@ -113,7 +113,7 @@
 
 
                 <category>
-                <pattern>QUEM É O MONITOR DE TEORIA DA COMPUTAÇÃO</pattern>
+                <pattern>QUEM É O MONITOR DE TEORIA DA COMPUTACAO</pattern>
                         <template>
                                 Lucas Albuquerque Lisboa
                         </template>

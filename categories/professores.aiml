@@ -16,44 +16,44 @@
   </category>
 
   <category>
-        <pattern>QUEM É O PROFESSOR DE PROGRAMAÇAO 1</pattern>
+        <pattern>QUEM E O PROFESSOR DE PROGRAMACAO 1</pattern>
         <template>
                 Willy Tiengo e Rodrigo Paes
         </template>
         </category>
       
         <category>
-                <pattern>QUEM É O PROFESSOR DE GRAFOS</pattern>
+                <pattern>QUEM E O PROFESSOR DE GRAFOS</pattern>
                 <template>
                         Ryan Gabriel Pinheiro
                 </template>
                 </category>
 
 <category>
-        <pattern>QUEM É O PROFESSOR DE PAA</pattern>
+        <pattern>QUEM E O PROFESSOR DE PAA</pattern>
         <template>
                 <srai>QUEM É O PROFESSOR DE GRAFOS</srai>
         </template>
         </category>
 
         <category>
-        <pattern>QUEM É O PROFESSOR DE PROJETO DE ANALISE DE ALGORITMO</pattern>
+        <pattern>QUEM E O PROFESSOR DE PROJETO E ANALISE DE ALGORITMOS</pattern>
         <template>
                 <srai>QUEM É O PROFESSOR DE GRAFOS</srai>
         </template>
         </category>
         
         <category>
-        <pattern>QUEM É O PROFESSOR DE INTELIGENCIA ARTIFICIAL</pattern>
+        <pattern>QUEM E O PROFESSOR DE INTELIGENCIA ARTIFICIAL</pattern>
         <template>
                 Evandro Barros
         </template>
         </category>
                 
         <category>
-                <pattern>QUEM É O PROFESSOR DE TEORIA DA COMPUTAÇAO</pattern>
+                <pattern>QUEM E O PROFESSOR DE TEORIA DA COMPUTACAO</pattern>
                 <template>
-                        Fabio paraguaçu
+                        Fábio Paraguaçu
                 </template>
                 </category>
 </aiml>
