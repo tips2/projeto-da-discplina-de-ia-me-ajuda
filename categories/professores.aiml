@@ -51,9 +51,38 @@
         </category>
                 
         <category>
-                <pattern>QUEM E O PROFESSOR DE TEORIA DA COMPUTACAO</pattern>
-                <template>
-                        Fábio Paraguaçu
-                </template>
-                </category>
+        <pattern>QUEM E O PROFESSOR DE TEORIA DA COMPUTACAO</pattern>
+        <template>
+                Fábio Paraguaçu
+        </template>
+        </category>
+
+        <category>
+        <pattern>QUEM E O PROFESSOR DE MATEMATICA DISCRETA</pattern>
+        <template>
+                Lucas Amorim
+        </template>
+        </category>
+
+        <category>
+        <pattern>QUEM E O PROFESSOR DE CALCULO DIFERENCIAL E INTEGRAL</pattern>
+        <template>
+                MANOEL ROBERTO
+        </template>
+        </category>
+
+        <category>
+        <pattern>QUEM E O PROFESSOR DE LOGICA PARA COMPUTACAO</pattern>
+        <template>
+                
+        </template>
+        </category>
+
+        <category>
+        <pattern>QUEM E O PROFESSOR DE BANCO DE DADOS</pattern>
+        <template>
+                FABIO COUTINHO
+        </template>
+        </category>
+
 </aiml>
