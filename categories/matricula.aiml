@@ -34,22 +34,22 @@
 
 <category>
     <pattern>* TRANCO O CURSO</pattern>
-      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE</srai></template>
 </category>
 
 <category>
-    <pattern>* TRANCAR O CURSO *</pattern>
-      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+    <pattern>* TRANCAR O CURSO</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE</srai></template>
 </category>
 
 <category>
     <pattern>* PARA TRANCAR O CURSO</pattern>
-      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE</srai></template>
 </category>
 
 <category>
-    <pattern>* TRANCAR A MATRÍCULA NO CURSO *</pattern>
-      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
+    <pattern>* TRANCAR A MATRÍCULA NO CURSO</pattern>
+      <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE</srai></template>
 </category>
 
 <category>
@@ -79,12 +79,12 @@
 </category>
 
 <category>
-    <pattern>QUERO DESISTIR DO CURSO *</pattern>
+    <pattern>QUERO DESISTIR DO CURSO</pattern>
       <template><srai>DESISTENCIA DO CURSO</srai></template>
 </category>
 
 <category>
-    <pattern>* DESISTIR DO CURSO *</pattern>
+    <pattern>* DESISTIR DO CURSO</pattern>
       <template><srai>DESISTENCIA DO CURSO</srai></template>
 </category>
 
@@ -113,7 +113,7 @@
 </category>
 
 <category>
-    <pattern>* REMATRICULAR *</pattern>
+    <pattern>* REMATRICULAR</pattern>
       <template><srai>REMATRICULA</srai></template>
 </category>
 
@@ -128,12 +128,12 @@
   
 <category>
     <pattern>COMO SOLICITAR O TRANCAMENTO * DISCIPLINA</pattern>
-      <template><srai>TRANCAMENTO DE DISCIPLINA?</srai></template>
+      <template><srai>TRANCAMENTO DE DISCIPLINA</srai></template>
 </category>
 
 <category>
     <pattern>COMO SOLICITO O TRANCAMENTO * DISCIPLINA</pattern>
-      <template><srai>TRANCAMENTO DE DISCIPLINA?</srai></template>
+      <template><srai>TRANCAMENTO DE DISCIPLINA</srai></template>
 </category>
 
 <!-- DISPENSA DE DISCIPLINA -->
@@ -146,18 +146,18 @@
   </category>
 
 <category>
-    <pattern>* DISPENSA * DISCIPLINA *</pattern>
-      <template><srai>DISPENSA DE DISCIPLINA?</srai></template>
+    <pattern>* DISPENSA * DISCIPLINA</pattern>
+      <template><srai>DISPENSA DE DISCIPLINA</srai></template>
 </category>
 
 <category>
-    <pattern>* REAPROVEITAMENTO * DISCIPLINA *</pattern>
-      <template><srai>DISPENSA DE DISCIPLINA?</srai></template>
+    <pattern>* REAPROVEITAMENTO * DISCIPLINA</pattern>
+      <template><srai>DISPENSA DE DISCIPLINA</srai></template>
 </category>
 
 <category>
-    <pattern>* REAPROVEITAMENTO * MATERIA *</pattern>
-      <template><srai>DISPENSA DE DISCIPLINA?</srai></template>
+    <pattern>* REAPROVEITAMENTO * MATERIA</pattern>
+      <template><srai>DISPENSA DE DISCIPLINA</srai></template>
 </category>
 
 <!-- ELETIVAS -->
@@ -170,12 +170,12 @@
 
 <category>
     <pattern>QUAIS * MATERIA ELETIVAS</pattern>
-      <template><srai>QUAIS DISCIPLINAS ELETIVAS?</srai></template>
+      <template><srai>QUAIS DISCIPLINAS ELETIVAS</srai></template>
 </category>
 
 <category>
     <pattern>QUAIS * DISCIPLINAS ELETIVAS</pattern>
-      <template><srai>QUAIS DISCIPLINAS ELETIVAS?</srai></template>
+      <template><srai>QUAIS DISCIPLINAS ELETIVAS</srai></template>
 </category>
 
   <category>
@@ -187,12 +187,12 @@
 
   <category>
     <pattern>COMO SE MATRICULAR EM MATERIAS ELETIVAS</pattern>
-      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
+      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS</srai></template>
 </category>
 
 <category>
     <pattern>* MATRICULAR * ELETIVAS</pattern>
-      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
+      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS</srai></template>
 </category>
 
 <!-- REMANESCENTES -->
@@ -205,7 +205,7 @@
 </category>
 
 <category>
-    <pattern>* VAGAS REMANESCENTES *</pattern>
+    <pattern>* VAGAS REMANESCENTES</pattern>
       <template><srai>VAGAS REMANESCENTES</srai></template>
 </category>
 
@@ -225,12 +225,12 @@
 
 <category>
     <pattern>* MATRICULAR * ISOLADAS</pattern>
-      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS?</srai></template>
+      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS</srai></template>
 </category>
 
 <category>
     <pattern>* MATRICULA * ISOLADAS</pattern>
-      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS?</srai></template>
+      <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS</srai></template>
 </category>
 
 <!-- TROCA DE TURNO -->
@@ -243,7 +243,7 @@
 
     <category>
     <pattern>* MUDAR DE TURNO</pattern>
-      <template><srai>COMO MUDAR DE TURNO?</srai></template>
+      <template><srai>COMO MUDAR DE TURNO</srai></template>
 </category>
 
 <!-- INTEGRALIZAÇÃO DE CURSO -->
@@ -261,7 +261,7 @@
 </category>
 
 <category>
-    <pattern>* PRORROGAR A INTEGRALIZAÇÃO DE CURSO *</pattern>
+    <pattern>* PRORROGAR A INTEGRALIZAÇÃO DE CURSO</pattern>
       <template><srai>INTEGRALIZAÇÃO DE CURSO</srai></template>
 </category>
 
@@ -307,12 +307,12 @@
 </category>
 
 <category>
-    <pattern>* TRANSFERIR PARA A UFAL *</pattern>
+    <pattern>* TRANSFERIR PARA A UFAL</pattern>
       <template><srai>INGRESSAR POR TRANSFERENCIA EXTERNA</srai></template>
 </category>
 
 <category>
-    <pattern>* TRANSFIRO PARA A UFAL *</pattern>
+    <pattern>* TRANSFIRO PARA A UFAL</pattern>
       <template><srai>INGRESSAR POR TRANSFERENCIA EXTERNA</srai></template>
 </category>
 
@@ -345,12 +345,12 @@
 </category>
 
 <category>
-    <pattern>* REOPÇÃO?</pattern>
+    <pattern>* REOPÇÃO</pattern>
       <template><srai>REOPÇÃO</srai></template>
 </category>
 
 <category>
-    <pattern>* REOPÇÃO *</pattern>
+    <pattern>* REOPÇÃO</pattern>
       <template><srai>REOPÇÃO</srai></template>
 </category>
 
