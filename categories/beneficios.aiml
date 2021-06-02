@@ -302,9 +302,9 @@
 <!-- EMAIL INSTITUCIONAL -->
 
   <category>
-    <pattern>COMO * EMAIL INSTITUCIONAL</pattern>
+    <pattern>COMO CONSEGUIR EMAIL INSTITUCIONAL</pattern>
       <template>
-        O e-mail institucional deve ser solicitado ao técnico/professor Lucas Amorim e deve ser feito rápido pois é o canal de comunicação oficial do instituto. Através dele o aluno pode participar dos canais de avisos institucionais e se comunicar com professores e com a gestão.
+        O email institucional deve ser solicitado ao técnico/professor Lucas Amorim e deve ser feito rápido pois é o canal de comunicação oficial do instituto. Através dele o aluno pode participar dos canais de avisos institucionais e se comunicar com professores e com a gestão.
         </template>
   </category>
 
@@ -313,31 +313,36 @@
       <template><srai>COMO CONSEGUIR EMAIL INSTITUCIONAL</srai></template>
   </category>
 
-    <category>
-    <pattern>BENEFICIOS DO EMAIL INSTITUCIONAL</pattern>
+  <category>
+    <pattern>COMO * EMAIL INSTITUCIONAL</pattern>
+      <template><srai>COMO CONSEGUIR EMAIL INSTITUCIONAL</srai></template>
+  </category>
+
+  <category>
+    <pattern>BENEFICIOS DO EMAIL</pattern>
       <template>
-        Além de ser o canal de comunicação oficial do instituto, com ele temos um drive ilimitado, acesso free em contas pro como do github, ferramentas da jetbrains free, Windowns free ….(tem muita coisa).
-        </template>
+      Além de ser o canal de comunicação oficial do instituto, com ele temos um drive ilimitado, acesso free em contas pro como do github, ferramentas da jetbrains free, Windowns free ….(tem muita coisa).
+      </template>
   </category>
 
   <category>
     <pattern>* BENEFICIOS DO EMAIL INSTITUCIONAL</pattern>
-      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
+      <template><srai>BENEFICIOS DO EMAIL</srai></template>
   </category>
 
   <category>
     <pattern>* BENEFICIOS DO E-MAIL INSTITUCIONAL</pattern>
-      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
+      <template><srai>BENEFICIOS DO EMAIL</srai></template>
   </category>
 
   <category>
     <pattern>* BENEFÍCIOS DO EMAIL INSTITUCIONAL</pattern>
-      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
+      <template><srai>BENEFICIOS DO EMAIL</srai></template>
   </category>
 
   <category>
     <pattern>* BENEFÍCIOS DO E-MAIL INSTITUCIONAL</pattern>
-      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
+      <template><srai>BENEFICIOS DO EMAIL</srai></template>
   </category>
 
 <!-- TRANSPAL -->
@@ -353,27 +358,27 @@
 
 <category>
     <pattern>* CARTEIRINHA TRANSPAL</pattern>
-      <template><srai>CARTERINHA TRANSPAL</srai></template>
+      <template><srai>CARTEIRINHA TRANSPAL</srai></template>
 </category>
 
 <category>
     <pattern>* CARTÃO ESTUDANTIL</pattern>
-      <template><srai>CARTERINHA TRANSPAL</srai></template>
+      <template><srai>CARTEIRINHA TRANSPAL</srai></template>
 </category>
 
 <category>
     <pattern>* CARTÃO * TRANSPAL</pattern>
-      <template><srai>CARTERINHA TRANSPAL</srai></template>
+      <template><srai>CARTEIRINHA TRANSPAL</srai></template>
 </category>
 
 <category>
     <pattern>* CARTAO ESTUDANTIL</pattern>
-      <template><srai>CARTERINHA TRANSPAL</srai></template>
+      <template><srai>CARTEIRINHA TRANSPAL</srai></template>
 </category>
 
 <category>
     <pattern>* CARTAO * TRANSPAL</pattern>
-      <template><srai>CARTERINHA TRANSPAL</srai></template>
+      <template><srai>CARTEIRINHA TRANSPAL</srai></template>
 </category>
 
 <category>
