@@ -4,36 +4,36 @@
 <!-- TRANCAMENTO DE MATRÍCULA NO CURSO-->
 
   <category>
-    <pattern>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</pattern>
+    <pattern>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE</pattern>
       <template>
 	    Conforme o Art 7º da Resolução Nº 25/2005 - CEPE, de 26 de outubro de 2005, somente a partir do segundo período será permitido ao aluno o trancamento de matrícula, em disciplinas ou no período, em data fixada pelo Calendário Acadêmico da UFAL. A exceção ocorre apenas nos casos de necessidade do afastamento do aluno por questões de saúde, comprovada pela Junta Médica da UFAL, ou decorrente de Serviço Militar Obrigatório.
         </template>
   </category>
 
 <category>
-    <pattern>COMO SOLICITO * TRANCAMENTO DE MATRICULA?</pattern>
+    <pattern>COMO SOLICITO * TRANCAMENTO DE MATRICULA</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
   </category>
 
 <category>
-    <pattern>COMO SOLICITAR O TRANCAMENTO DE MATRICULA?</pattern>
+    <pattern>COMO SOLICITAR O TRANCAMENTO DE MATRICULA</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
 </category>
 
 <category>
-    <pattern>* TRANCAMENTO DE MATRICULA?</pattern>
+    <pattern>* TRANCAMENTO DE MATRICULA</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
 </category>
 
 <category>
-    <pattern>TRANCAR A MATRICULA NO CURSO?</pattern>
+    <pattern>TRANCAR A MATRICULA NO CURSO</pattern>
       <template>
       Solicite o “Nada Consta” da(s) biblioteca(s), para a confirmação da quitação de dívida de empréstimo de livros. Acesse http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/drca-trancamento-de-matricula-do-curso/ , preencha o formulário, se dirija ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. O processo administrativo deverá ser direcionado para a Coordenação do Curso. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.
       </template>
   </category>
 
 <category>
-    <pattern>* TRANCO O CURSO?</pattern>
+    <pattern>* TRANCO O CURSO</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
 </category>
 
@@ -43,7 +43,7 @@
 </category>
 
 <category>
-    <pattern>* PARA TRANCAR O CURSO?</pattern>
+    <pattern>* PARA TRANCAR O CURSO</pattern>
       <template><srai>TRANCAMENTO DE MATRICULA NO PRIMEIRO SEMESTRE?</srai></template>
 </category>
 
@@ -53,20 +53,20 @@
 </category>
 
 <category>
-    <pattern>COMO FUNCIONA O TRANCAMENTO DE MATRICULA?</pattern>
+    <pattern>COMO FUNCIONA O TRANCAMENTO DE MATRICULA</pattern>
       <template>
       Conforme o Art 7º da Resolução Nº 25/2005 - CEPE, de 26 de outubro de 2005, o aluno interessado requererá o trancamento ao Colegiado do Curso que, em caso de deferimento, o efetivará no Sistema Acadêmico. O trancamento de matrícula no período poderá ser efetivado pelo prazo máximo de 04 (quatro) semestres, consecutivos ou não, quando então obrigar-se-á o aluno a reassumir as atividades acadêmicas de seu curso, sob pena de desligamento do mesmo. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.      
       </template>
   </category>
 
 <category>
-    <pattern>O QUE É TRANCAMENTO DE MATRÍCULA NO CURSO?</pattern>
+    <pattern>O QUE É TRANCAMENTO DE MATRÍCULA NO CURSO</pattern>
       <template><srai>COMO FUNCIONA O TRANCAMENTO DE MATRICULA?</srai></template>
 </category>
 
 <category>
-    <pattern>O QUE É TRANCAMENTO DE CURSO?</pattern>
-      <template><srai>COMO FUNCIONA O TRANCAMENTO DE MATRICULA?</srai></template>
+    <pattern>O QUE É TRANCAMENTO DE CURSO</pattern>
+      <template><srai>COMO FUNCIONA O TRANCAMENTO DE MATRICULA</srai></template>
 </category>
 
 <!-- DESISTÊNCIA DO CURSO -->
@@ -89,7 +89,7 @@
 </category>
 
 <category>
-    <pattern>COMO * DESISTENCIA DO CURSO?</pattern>
+    <pattern>COMO * DESISTENCIA DO CURSO</pattern>
       <template><srai>DESISTENCIA DO CURSO</srai></template>
 </category>
 
@@ -103,12 +103,12 @@
 </category>
 
 <category>
-    <pattern>* VOLTAR PARA O CURSO QUE TRANQUEI?</pattern>
+    <pattern>* VOLTAR PARA O CURSO QUE TRANQUEI</pattern>
       <template><srai>REMATRICULA</srai></template>
 </category>
 
 <category>
-    <pattern>* REMATRICULA?</pattern>
+    <pattern>* REMATRICULA</pattern>
       <template><srai>REMATRICULA</srai></template>
 </category>
 
@@ -120,26 +120,26 @@
 <!-- TRANCAMENTO DE DISCIPLINA-->
 
   <category>
-    <pattern>TRANCAMENTO DE DISCIPLINA?</pattern>
+    <pattern>TRANCAMENTO DE DISCIPLINA</pattern>
       <template>
 	    Se você for do primeiro período, não pode solicitar trancamento de disciplina. http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/drca-trancamento-de-matricula-de-disciplina/ , preencha o formulário, se dirija ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. O processo administrativo deverá ser direcionado para a Coordenação do Curso. As solicitações deverão ser efetuadas no período destacado no Calendário Acadêmico.
         </template>
   </category>
   
 <category>
-    <pattern>COMO SOLICITAR O TRANCAMENTO * DISCIPLINA?</pattern>
+    <pattern>COMO SOLICITAR O TRANCAMENTO * DISCIPLINA</pattern>
       <template><srai>TRANCAMENTO DE DISCIPLINA?</srai></template>
 </category>
 
 <category>
-    <pattern>COMO SOLICITO O TRANCAMENTO * DISCIPLINA?</pattern>
+    <pattern>COMO SOLICITO O TRANCAMENTO * DISCIPLINA</pattern>
       <template><srai>TRANCAMENTO DE DISCIPLINA?</srai></template>
 </category>
 
 <!-- DISPENSA DE DISCIPLINA -->
 
   <category>
-    <pattern>DISPENSA DE DISCIPLINA?</pattern>
+    <pattern>DISPENSA DE DISCIPLINA</pattern>
       <template>
 	    Acesse http://www.ufal.edu.br/estudante/o-estudante/formularios/aproveitamento-de-estudo/drca-dispensa-de-disciplina-cursada/ , preencha o formulário e anexe cópias da documentação exigida (conforme as instruções descritas no formulário). O Histórico Analítico deverá estar autenticado pela instituição de origem (caso seja a UFAL, a autenticação será efetuada no DRCA). Após o preenchimento do formulário, se dirija ao setor de Protocolo/Reitoria para abertura do processo administrativo e juntada da documentação necessária. A solicitação poderá ser ou não autorizada (integral ou parcialmente) pelo Colegiado do Curso. O resultado do pedido será implantado no Histórico Analítico do (a) requerente, pelo DRCA, após análise do Colegiado do Curso. CONFIRA!
         </template>
@@ -162,36 +162,36 @@
 
 <!-- ELETIVAS -->
   <category>
-    <pattern>QUAIS DISCIPLINAS ELETIVAS?</pattern>
+    <pattern>QUAIS DISCIPLINAS ELETIVAS</pattern>
       <template>
         As eletivas tendem a variar de acordo com a oferta semestral de disciplinas. Caso você tenha interesse em verificar as disciplinas obrigatórias e as eletivas de ênfase, é só acessar este (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas) ou no sieweb em matrícula-Grade Curricular.
         </template>
   </category>
 
 <category>
-    <pattern>QUAIS * MATERIA ELETIVAS?</pattern>
+    <pattern>QUAIS * MATERIA ELETIVAS</pattern>
       <template><srai>QUAIS DISCIPLINAS ELETIVAS?</srai></template>
 </category>
 
 <category>
-    <pattern>QUAIS * DISCIPLINAS ELETIVAS?</pattern>
+    <pattern>QUAIS * DISCIPLINAS ELETIVAS</pattern>
       <template><srai>QUAIS DISCIPLINAS ELETIVAS?</srai></template>
 </category>
 
   <category>
-    <pattern>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</pattern>
+    <pattern>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS</pattern>
       <template>
         As matérias eletivas estão sendo ofertadas no decorrer do curso na hora da sua matrícula no sieweb todos os períodos.
         </template>
   </category>
 
   <category>
-    <pattern>COMO SE MATRICULAR EM MATERIAS ELETIVAS?</pattern>
+    <pattern>COMO SE MATRICULAR EM MATERIAS ELETIVAS</pattern>
       <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
 </category>
 
 <category>
-    <pattern>* MATRICULAR * ELETIVAS?</pattern>
+    <pattern>* MATRICULAR * ELETIVAS</pattern>
       <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ELETIVAS?</srai></template>
 </category>
 
@@ -210,32 +210,32 @@
 </category>
 
 <category>
-    <pattern>COMO * MATÉRIAS DE OUTRO CURSO?</pattern>
+    <pattern>COMO * MATÉRIAS DE OUTRO CURSO</pattern>
       <template><srai>VAGAS REMANESCENTES</srai></template>
 </category>
 
 <!-- DISCIPLINAS ISOLADAS -->
 
 <category>
-    <pattern>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS?</pattern>
+    <pattern>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS</pattern>
       <template>
       Conforme Resolução nº 71/2000 – CEPE, de 01 de dezembro de 2000, os interessados em ingressar na UFAL, como alunos especiais, deverão preencher o formulário disponível em: http://www.ufal.edu.br/estudante/o-estudante/formularios/matricula/drca-matricula-em-disciplina-isolada/ e entregá-lo na Secretaria do DRCA dentro do prazo estabelecido no Calendário Acadêmico. Os interessados poderão requerer matrícula em até 02 (duas) disciplinas isoladas dos Cursos de Graduação. Caso o processo seja deferido, para efetivação da matrícula, será exigida a documentação destacada no formulário e o pagamento da taxa (https://ufal.br/estudante/documentos/manuais/manual-para-a-emissao-de-gru/ ) específica conforme tabela de emolumentos (http://www.ufal.edu.br/transparencia/institucional/conselhos-superiores/consuni/resolucoes/2005/resolucao-no-32-2005-consuni-de-05-12-2005 ).
       </template>
 </category>
 
 <category>
-    <pattern>* MATRICULAR * ISOLADAS?</pattern>
+    <pattern>* MATRICULAR * ISOLADAS</pattern>
       <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS?</srai></template>
 </category>
 
 <category>
-    <pattern>* MATRICULA * ISOLADAS?</pattern>
+    <pattern>* MATRICULA * ISOLADAS</pattern>
       <template><srai>COMO SE MATRICULAR EM DISCIPLINAS ISOLADAS?</srai></template>
 </category>
 
 <!-- TROCA DE TURNO -->
   <category>
-    <pattern>COMO MUDAR DE TURNO?</pattern>
+    <pattern>COMO MUDAR DE TURNO</pattern>
       <template>
         Através do processo seletivo de reopção e mudança de turno para cursos de graduação disponível em: http://copeve.ufal.br/ . O período de publicação do edital fica destacado no Calendário Acadêmico.
         </template>
@@ -256,7 +256,7 @@
 </category>
 
 <category>
-    <pattern>COMO * PRAZO DA INTEGRALIZAÇÃO DE CURSO?</pattern>
+    <pattern>COMO * PRAZO DA INTEGRALIZAÇÃO DE CURSO</pattern>
       <template><srai>INTEGRALIZAÇÃO DE CURSO</srai></template>
 </category>
 
@@ -275,22 +275,22 @@
 </category>
 
 <category>
-    <pattern>COMO REALIZO TRANSFERENCIA EXTERNA?</pattern>
+    <pattern>COMO REALIZO TRANSFERENCIA EXTERNA</pattern>
       <template><srai>TRANSFERENCIA EXTERNA</srai></template>
 </category>
 
 <category>
-    <pattern>COMO FUNCIONA A TRANSFERENCIA EXTERNA?</pattern>
+    <pattern>COMO FUNCIONA A TRANSFERENCIA EXTERNA</pattern>
       <template><srai>TRANSFERENCIA EXTERNA</srai></template>
 </category>
 
 <category>
-    <pattern>COMO ME TRANSFERIR PARA OUTRA UNIVERSIDADE?</pattern>
+    <pattern>COMO ME TRANSFERIR PARA OUTRA UNIVERSIDADE</pattern>
       <template><srai>TRANSFERENCIA EXTERNA</srai></template>
 </category>
 
 <category>
-    <pattern>* TRANSFERIR PARA OUTRA UNIVERSIDADE?</pattern>
+    <pattern>* TRANSFERIR PARA OUTRA UNIVERSIDADE</pattern>
       <template><srai>TRANSFERENCIA EXTERNA</srai></template>
 </category>
 
@@ -302,7 +302,7 @@
 </category>
 
 <category>
-    <pattern>COMO * NA UFAL POR TRANSFERENCIA EXTERNA?</pattern>
+    <pattern>COMO * NA UFAL POR TRANSFERENCIA EXTERNA</pattern>
       <template><srai>INGRESSAR POR TRANSFERENCIA EXTERNA</srai></template>
 </category>
 
@@ -317,7 +317,7 @@
 </category>
 
 <category>
-    <pattern>* INGRESSO NA UFAL POR TRANSFERENCIA EXTERNA?</pattern>
+    <pattern>* INGRESSO NA UFAL POR TRANSFERENCIA EXTERNA</pattern>
       <template><srai>INGRESSAR POR TRANSFERENCIA EXTERNA</srai></template>
 </category>
 
@@ -331,7 +331,7 @@
 </category>
 
 <category>
-    <pattern>* REINGRESSO?</pattern>
+    <pattern>* REINGRESSO</pattern>
       <template><srai>REINGRESSO</srai></template>
 </category>
 
