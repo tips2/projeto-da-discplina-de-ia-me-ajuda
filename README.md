@@ -56,8 +56,7 @@ Tip: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C+
 
 ## Try on-line
 
-There are a instance of this chatbot, with the converter, already configurated for tests available at https://chatbotari.herokuapp.com/
-
+There are a instance of this chatbot, with the converter, already configurated for tests available at https://botcris.herokuapp.com
 
 ## Screens
 
