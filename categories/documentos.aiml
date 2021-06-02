@@ -11,12 +11,12 @@
   </category>
 
 <category>
-    <pattern>SOLICITO * HISTORICO ANALITICO *</pattern>
+    <pattern>SOLICITO * HISTORICO ANALITICO </pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
   <category>
-    <pattern>SOLICITAR * HISTORICO academico *</pattern>
+    <pattern>SOLICITAR * HISTORICO academico </pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
@@ -40,7 +40,7 @@
   </category>
 
 <category>
-    <pattern>* FORMULARIO * TRANSPAL *</pattern>
+    <pattern>* FORMULARIO * TRANSPAL </pattern>
       <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
   </category>
 
@@ -52,22 +52,20 @@
 <!-- ATESTADO MÉDICO -->
 
   <category>
-    <pattern>JUSTIFICAR ATESTADO MEDICO?</pattern>
+    <pattern>JUSTIFICAR ATESTADO MEDICO</pattern>
       <template>
 	      Você vai precisar levar  seu atestado no DRCA, que fica localizado na reitoria.
       </template>
   </category>
 
 <category>
-    <pattern>COMO JUSTIFICAR IDA AO MÉDICO?</pattern>
-      <template><srai>JUSTIFICAR ATESTADO MEDICO?</srai></template>
+    <pattern>COMO JUSTIFICAR IDA AO MÉDICO</pattern>
+      <template><srai>JUSTIFICAR ATESTADO MEDICO</srai></template>
   </category>
 
   <category>
-    <pattern>COMO JUSTIFICAR O ATESTADO MEDICO?</pattern>
-      <template><srai>JUSTIFICAR ATESTADO MEDICO?</srai></template>
+    <pattern>COMO JUSTIFICAR O ATESTADO MEDICO</pattern>
+      <template><srai>JUSTIFICAR ATESTADO MEDICO</srai></template>
   </category>
 
 </aiml>
-
-
