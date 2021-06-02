@@ -11,31 +11,61 @@
   </category>
 
 <category>
-    <pattern>* historico analitico * solicito?</pattern>
+    <pattern>* HISTORICO ANALITICO * SOLICITO</pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
   <category>
-    <pattern>onde * historico academico</pattern>
+    <pattern>ONDE * HISTORICO ACADEMICO</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+   <category>
+    <pattern>* HISTORICO ACADEMICO</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+   <category>
+    <pattern>* HISTÓRICO ACADÊMICO</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+   <category>
+    <pattern>* HISTORICO ANALITICO</pattern>
+      <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
+  </category>
+
+  <category>
+    <pattern>* HISTÓRICO ANALITÍCO</pattern>
       <template><srai>SOLICITAR HISTORICO ANALITICO</srai></template>
   </category>
 
 <!-- SITUAÇÃO DE VÍNCULO -->
 
   <category>
-    <pattern>VINCULO COM A UNIVERSIDADE</pattern>
+    <pattern>VINCULO</pattern>
       <template> 
-      Este tipo de informação tem caráter sigiloso. Somente o próprio aluno ou pessoa devidamente autorizada por instrumento procuratório tem acesso.  Se dirija à Secretaria do DRCA apresentando documento de identificação com foto (preferencialmente RG).
+      A respeito da situação de vínculo: este tipo de informação tem caráter sigiloso. Somente o próprio aluno ou pessoa devidamente autorizada por instrumento procuratório tem acesso.  Se dirija à Secretaria do DRCA apresentando documento de identificação com foto (preferencialmente RG).
       </template>
   </category>
 
   <category>
-    <pattern>ONDE VERIFICO MINHA SITUAÇÃO DE * VINCULO</pattern>
+    <pattern>ONDE VERIFICO MINHA SITUAÇÃO DE VINCULO</pattern>
       <template><srai>VINCULO</srai></template>
   </category>
 
  <category>
-    <pattern>QUERO SABER SOBRE * VINCULO *</pattern>
+    <pattern>QUERO SABER SOBRE * VINCULO</pattern>
+      <template><srai>VINCULO</srai></template>
+  </category>
+
+  <category>
+    <pattern>* VINCULO</pattern>
+      <template><srai>VINCULO</srai></template>
+  </category>
+
+ <category>
+    <pattern>* VÍNCULO</pattern>
       <template><srai>VINCULO</srai></template>
   </category>
 
@@ -49,17 +79,17 @@
   </category>
 
 <category>
-    <pattern>* SOLICITO DOCUMENTOS SEM IR AO DRCA?</pattern>
+    <pattern>* SOLICITO DOCUMENTOS SEM IR AO DRCA</pattern>
       <template><srai>SOLICITAR DOCUMENTOS</srai></template>
   </category>
 
 <category>
-    <pattern>* SOLICITO DOCUMENTOS SEM IR PESSOALMENTE?</pattern>
+    <pattern>* SOLICITO DOCUMENTOS SEM IR PESSOALMENTE</pattern>
       <template><srai>SOLICITAR DOCUMENTOS</srai></template>
   </category>
 
 <category>
-    <pattern>* SOLICITO DOCUMENTOS?</pattern>
+    <pattern>* SOLICITO DOCUMENTOS</pattern>
       <template><srai>SOLICITAR DOCUMENTOS</srai></template>
   </category>
 

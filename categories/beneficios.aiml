@@ -6,7 +6,7 @@
   <category>
     <pattern>COMO COMER NO RU</pattern>
       <template>
-      Você precisa de um documento de identificação (identidade ou carteirinha estudantil), seu comprovante de matrícula, que pode ser emitido pelo sieweb,  se for calouro pode utilizar a página da copeve onde consta a sua aprovação e a taxa (3,00).
+      Para almoçar ou jantar no Restaurante Universitário, você precisa de um documento de identificação (identidade ou carteirinha estudantil), seu comprovante de matrícula, que pode ser emitido pelo sieweb,  se for calouro pode utilizar a página da copeve onde consta a sua aprovação e a taxa (3,00).
       </template>
   </category>
 
@@ -138,12 +138,22 @@
   </category>
 
   <category>
-    <pattern>COMO * PARA * BOLSA</pattern>
+    <pattern>COMO * BOLSA</pattern>
+      <template><srai>RECEBER BOLSA</srai></template>
+  </category>
+
+   <category>
+    <pattern>COMO * BOLSISTA</pattern>
       <template><srai>RECEBER BOLSA</srai></template>
   </category>
 
   <category>
     <pattern>QUERO * BOLSA</pattern>
+      <template><srai>RECEBER BOLSA</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUERO * BOLSISTA</pattern>
       <template><srai>RECEBER BOLSA</srai></template>
   </category>
 
@@ -179,12 +189,22 @@
   </category>
 
   <category>
-    <pattern>COMO FUNCIONA A MONITORIA</pattern>
+    <pattern>QUAIS SÃO * MONITORIA</pattern>
+      <template><srai>COMO FUNCIONA MONITORIA</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO FUNCIONA * MONITORIA</pattern>
+      <template><srai>COMO FUNCIONA MONITORIA</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUERO * MONITORIA</pattern>
       <template><srai>COMO FUNCIONA MONITORIA</srai></template>
   </category>
 
 <category>
-    <pattern>COMO SER MONITOR</pattern>
+    <pattern>QUERO SER MONITOR</pattern>
       <template>
           Você vai precisar se inscrever em um formulário que a secretaria ou o professor responsável vai enviar pelo email institucional, ao preencher esse formulário, vai ter uma prova com os conhecimentos daquela matéria, a média da nota para ser aprovado é 7. Para ser um monitor de uma disciplina você precisa ter sido aprovada nela com nota mínima de 7.
       </template>
@@ -192,7 +212,17 @@
 
   <category>
     <pattern>COMO * SER MONITOR</pattern>
-      <template><srai>COMO SER MONITOR?</srai></template>
+      <template><srai>COMO SER MONITOR</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUERO * MONITOR</pattern>
+      <template><srai>COMO SER MONITOR</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUERO * NA MONITORIA</pattern>
+      <template><srai>COMO SER MONITOR</srai></template>
   </category>
 
 <!-- EXTENSÃO E PESQUISA -->
@@ -300,10 +330,20 @@
       <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
   </category>
 
+  <category>
+    <pattern>* BENEFÍCIOS DO EMAIL INSTITUCIONAL</pattern>
+      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
+  </category>
+
+  <category>
+    <pattern>* BENEFÍCIOS DO E-MAIL INSTITUCIONAL</pattern>
+      <template><srai>BENEFICIOS DO EMAIL INSTITUCIONAL</srai></template>
+  </category>
+
 <!-- TRANSPAL -->
 
 <category>
-    <pattern>CARTERINHA TRANSPAL</pattern>
+    <pattern>CARTEIRINHA TRANSPAL</pattern>
       <template>
       <srai>
       Para saber essas e outras informações a respeito do cartão estudantil, acesse este link: https://www.cartaobemlegal.com.br/cartao-escolar/.
@@ -312,7 +352,7 @@
 </category>
 
 <category>
-    <pattern>* CARTERINHA TRANSPAL</pattern>
+    <pattern>* CARTEIRINHA TRANSPAL</pattern>
       <template><srai>CARTERINHA TRANSPAL</srai></template>
 </category>
 
