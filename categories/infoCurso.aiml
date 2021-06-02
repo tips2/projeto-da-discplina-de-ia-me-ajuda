@@ -17,7 +17,7 @@
   </category>
 
   <category>
-    <pattern>INFORMAÇÕES * CURSO</pattern>
+    <pattern>INFORMAÇOES * CURSO</pattern>
     <template>
       <srai>ONDE CONSIGO INFORMAÇÕES SOBRE MEU CURSO</srai>
     </template>
@@ -37,8 +37,43 @@
     </template>
   </category>
 
+<category>
+    <pattern>* HORÁRIOS DE AULA</pattern>
+    <template>
+      <srai>HORARIOS DE AULA</srai>
+    </template>
+  </category>
+
+   <category>
+    <pattern>* HORARIOS DE AULA</pattern>
+    <template>
+      <srai>HORARIOS DE AULA</srai>
+    </template>
+  </category>
+
  <category>
-    <pattern>* HORÁRIOS DE AULA </pattern>
+    <pattern>* HORÁRIOS DE AULAS</pattern>
+    <template>
+      <srai>HORARIOS DE AULA</srai>
+    </template>
+  </category>
+
+   <category>
+    <pattern>* HORARIOS DE AULAS</pattern>
+    <template>
+      <srai>HORARIOS DE AULA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* HORAS * AULAS</pattern>
+    <template>
+      <srai>HORARIOS DE AULA</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* HORAS * AULA</pattern>
     <template>
       <srai>HORARIOS DE AULA</srai>
     </template>
@@ -63,8 +98,9 @@
 <!-- ÊNFASES -->
 
   <category>
-    <pattern>* ENFASES</pattern>
+    <pattern>ENFASES</pattern>
     <template>
+        Há 4 ênfases, sendo elas:
         COMPUTAÇÃO VISUAL: área da ciência da computação que incide sobre os aspectos relacionados a técnicas de processamento, síntese, armazenamento, recuperação, visualização, e análise de imagens digitais.
         SISTEMAS DE COMPUTAÇÃO: área da ciência da computação que incide sobre os aspectos relacionados a hardware, sistemas embarcados, automação e controle; e robótica.
         SISTEMAS DE INFORMAÇÃO: área da ciência da computação que incide sobre os aspectos relacionados ao projeto e implementação de software com qualidade a partir de técnicas de engenharia de software e de novas tecnologias.
@@ -80,7 +116,14 @@
   </category>
 
   <category>
-    <pattern>* AS ÊNFASES</pattern>
+    <pattern>QUANTAS * ÊNFASES</pattern>
+    <template>
+      <srai>ENFASES</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS * ENFASES</pattern>
     <template>
       <srai>ENFASES</srai>
     </template>
@@ -93,8 +136,15 @@
     </template>
   </category>
 
+<category>
+    <pattern>QUAIS * ÊNFASES</pattern>
+    <template>
+      <srai>ENFASES</srai>
+    </template>
+  </category>
+
    <category>
-    <pattern>COMO FUNCIONA AS ÊNFASES</pattern>
+    <pattern>COMO FUNCIONAM AS ENFASES</pattern>
     <template>
       O sistema de ênfases permite que o aluno se especialize na área da computação de seu maior interesse. O colegiado manterá atualizado o rol de disciplinas eletivas para cada ênfase e o aluno que integralizar todas as disciplinas obrigatórias mais três disciplinas eletivas da mesma ênfase fará jus, ao final do curso, a um certificado de conclusão de ênfase a ser emitido pela coordenação do curso. Observados todos os requisitos, é facultado ao aluno a obtenção de mais de um certificado de conclusão de ênfase.
       </template>
@@ -103,14 +153,22 @@
   <category>
     <pattern>COMO * ENFASES</pattern>
     <template>
-      <srai>COMO FUNCIONA AS ÊNFASES</srai>
+      <srai>COMO FUNCIONAM AS ENFASES</srai>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>COMO * ÊNFASES</pattern>
+    <template>
+      <srai>COMO FUNCIONAM AS ENFASES</srai>
     </template>
   </category>
 
 <!-- GRADE CURRICULAR -->
 
   <category>
-    <pattern>QUAL A GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO</pattern>
+    <pattern>GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO</pattern>
     <template>
         Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
 	    </template>
@@ -119,21 +177,84 @@
   <category>
     <pattern>QUAL A GRADE DO CURSO DE CIÊNCIA DA COMPUTAÇÃO</pattern>
     <template>
-        Para ver a grade do curso de Ciência da Computação, acesse (https://ic.ufal.br/graduacao/ciencia-da-computacao/disciplinas-1/disciplinas).
-	    </template>
+	  <srai>GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO</srai>
+    </template>
   </category>
 
   <category>
-    <pattern>QUAL A GRADE CURRICULAR DE ENGENHARIA DE COMPUTAÇÃO</pattern>
+    <pattern>* GRADE * CIÊNCIA DA COMPUTAÇÃO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* GRADE * CIENCIA DA COMPUTAÇAO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* MATERIAS * CIENCIA DA COMPUTAÇAO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* MATÉRIAS * CIÊNCIA DA COMPUTAÇÃO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* DISCIPLINAS * CIÊNCIA DA COMPUTAÇÃO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE CIÊNCIA DA COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GRADE CURRICULAR DE ENGENHARIA DE COMPUTAÇÃO</pattern>
     <template>
       Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
     </template>
   </category>
 
   <category>
-    <pattern>QUAL A GRADE DO CURSOS DE ENGENHARIA DE COMPUTAÇÃO</pattern>
+    <pattern>QUAL A GRADE DO CURSO DE ENGENHARIA DE COMPUTAÇÃO</pattern>
     <template>
-      Para ver a grade do curso de Engenharia de Computação, acesse (https://ic.ufal.br/graduacao/engenharia-de-computacao/disciplinas-1/disciplinas).
+	  <srai>GRADE CURRICULAR DE ENGENHARIA DE COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+   <category>
+    <pattern>* GRADE * ENGENHARIA DE COMPUTAÇÃO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE ENGENHARIA DE COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* MATERIAS * ENGENHARIA DE COMPUTAÇÃO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE ENGENHARIA DE COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* MATÉRIAS * ENGENHARIA DE COMPUTAÇÃO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE ENGENHARIA DE COMPUTAÇÃO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* DISCIPLINAS * ENGENHARIA DE COMPUTAÇÃO</pattern>
+    <template>
+	  <srai>GRADE CURRICULAR DE ENGENHARIA DE COMPUTAÇÃO</srai>
     </template>
   </category>
 
@@ -142,26 +263,68 @@
   <category>
     <pattern>O QUE ACONTECE SEU EU REPROVAR</pattern>
     <template>
-      Se você reprovar você perde o seu fluxo padrão, mas no próximo período você pode pagar essa matéria novamente.
+      Se você reprovar você perde o seu fluxo padrão, mas no períodos seguintes você tem a possibilidade de pagar a matéria perdida novamente.
       </template>
   </category>
 
   <category>
-    <pattern>* SE EU REPROVAR</pattern>
+    <pattern>* REPROVAR</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
     </template>
   </category>
 
   <category>
-    <pattern>* SE EU PERDER UMA MATÉRIA</pattern>
+    <pattern>* PERDER UMA MATÉRIA</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
     </template>
   </category>
 
   <category>
-    <pattern>* SE EU PERDER UMA DISCIPLINA</pattern>
+    <pattern>* PERDER MATÉRIA</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PERDER MATÉRIAS</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PERDER MATERIAS</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PERDER MATERIA</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PERDER UMA DISCIPLINA</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PERDER DISCIPLINA</pattern>
+    <template>
+      <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
+    </template>
+  </category>
+
+   <category>
+    <pattern>* PERDER DISCIPLINAS</pattern>
     <template>
       <srai>O QUE ACONTECE SEU EU REPROVAR</srai>
     </template>
@@ -207,14 +370,21 @@
   </category>
 
   <category>
-    <pattern>COMO É O CÁLCULO DA NOTA FINAL</pattern>
+    <pattern>* CÁLCULO DA NOTA FINAL</pattern>
     <template>
       <srai>CALCULO DA NOTA FINAL</srai>
     </template>
   </category>
 
   <category>
-    <pattern>COMO É O CALCULADA A NOTA FINAL</pattern>
+    <pattern>* CALCULADA A NOTA FINAL</pattern>
+    <template>
+      <srai>CALCULO DA NOTA FINAL</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* NOTA FINAL</pattern>
     <template>
       <srai>CALCULO DA NOTA FINAL</srai>
     </template>
@@ -225,12 +395,33 @@
   <category>
     <pattern>COORDENADOR DO CURSO</pattern>
     <template>
-      O Coordenador de Ciência da computação é o professor Bruno Pimentel, o vice coordenador é a professora Roberta Vilhena. Coordenador de Engenharia de Computação é o professor Ícaro Bezerra, e o vice coordenador é o professor João Raphael.
+      O Coordenador de Ciência da computação é o professor Bruno Pimentel, a vice-coordenadora é a professora Roberta Vilhena. O coordenador de Engenharia de Computação é o professor Ícaro Bezerra, e o vice-coordenador é o professor João Raphael.
     </template>
   </category>
 
   <category>
-    <pattern>QUEM É O COORDENADOR </pattern>
+    <pattern>* COORDENADOR DE ENGENHARIA DE COMPUTAÇÃO</pattern>
+    <template>
+      <srai>COORDENADOR DO CURSO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* COORDENAÇÃO DE ENGENHARIA DE COMPUTAÇÃO</pattern>
+    <template>
+      <srai>COORDENADOR DO CURSO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* COORDENADOR DE CIÊNIA DA COMPUTAÇÃO</pattern>
+    <template>
+      <srai>COORDENADOR DO CURSO</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* COORDENAÇÃO DE CIÊNCIA DA COMPUTAÇÃO</pattern>
     <template>
       <srai>COORDENADOR DO CURSO</srai>
     </template>
@@ -259,6 +450,20 @@
     </template>
   </category>
 
+  <category>
+    <pattern>* SIGAA E SIEWEB</pattern>
+    <template>
+      <srai>SIGAA E SIEWEB</srai>
+    </template>
+  </category>
+
+<category>
+    <pattern>* SIEWEB E SIGAA</pattern>
+    <template>
+      <srai>SIGAA E SIEWEB</srai>
+    </template>
+  </category>
+
 <!-- CALENDÁRIO ACADÊMICO -->
 
  <category>
@@ -274,19 +479,14 @@
 </category>
 
 <category>
-  <pattern> CALENDÁRIO ACADÊMICO</pattern>
+  <pattern>* CALENDÁRIO ACADEMICO</pattern>
     <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
 </category>
 
 <category>
-  <pattern>QUANDO COMEÇAM AS AULAS</pattern>
+  <pattern>* CALENDÁRIO * UFAL</pattern>
     <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
 </category>
-  
-<category>
-  <pattern>QUANDO COMEÇAM AS AULAS</pattern>
-    <template><srai>CALENDÁRIO ACADÊMICO</srai></template>
-</category> 
 
 <category>
     <pattern>QUANDO * AS AULAS</pattern>
@@ -340,12 +540,12 @@
 </category>
 
 <category>
-    <pattern>* FUNÇÕES DO DIRETÓRIO ACADÊMICO</pattern>
+    <pattern>* FUNÇOES DO DIRETORIO ACADEMICO</pattern>
       <template><srai>FUNCOES DIACOM</srai></template>
 </category>
 
 <category>
-    <pattern>* FUNÇÕES DO DIACOM </pattern>
+    <pattern>* FUNÇOES DO DIACOM</pattern>
       <template><srai>FUNCOES DIACOM</srai></template>
 </category>
 

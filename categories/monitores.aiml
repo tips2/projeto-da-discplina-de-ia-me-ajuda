@@ -2,7 +2,7 @@
 <aiml version="2.0">
 
         <category>
-                <pattern>QUEM É O MONITOR DE ROBOTICA MOVEL</pattern>
+                <pattern>QUEM É O MONITOR DE ROBÓTICA MOVEL</pattern>
                         <template>
                                 Alan Pereira da Silva
                         </template>
@@ -16,7 +16,7 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE LCAF</pattern>
+                <pattern>QUEM É O MONITOR DE LFAC</pattern>
                         <template>
                                 Luana Júlia Nunes Ferreira,
                                 Mateus Fernando Felismino da Silva Patriota,
@@ -25,74 +25,65 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE COMPUTAÇAO GRAFICA</pattern>
+                <pattern>QUEM É O MONITOR DE COMPUTAÇÃO GRAFICA</pattern>
                         <template>
-                                Valeria Nogueira Rodrigues Junior
+                                Valério Nogueira Rodrigues Junior
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE CALCULO 1</pattern>
+                <pattern>QUEM É O MONITOR DE CÁLCULO 1</pattern>
                         <template>
-                                Rebeca de Jesus Brandão,
-                                Jadson César da Silva Santos
+                                Rebeca de Jesus Brandão e Jadson César da Silva Santos
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE CALCULO 2</pattern>
+                <pattern>QUEM É O MONITOR DE CÁLCULO 2</pattern>
                         <template>
-                                Rafael Augusto Vilellade Albuquerque Lins
+                                Rafael Augusto Vilella de Albuquerque Lins
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE COMPUTAÇAO SOCIEDADE E ETICA</pattern>
+                <pattern>QUEM É O MONITOR DE COMPUTAÇÃO, SOCIEDADE E ÉTICA</pattern>
                         <template>
-                                Rafael Emílio Lima Alves,
-                                João Vitor Santos Tavares,
-                                Rick Martim Lino dos Santos
+                                Rafael Emílio Lima Alves, João Vitor Santos Tavares e Rick Martim Lino dos Santos
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE PROBABILIDADE E ESTATISTICA</pattern>
+                <pattern>QUEM É O MONITOR DE PROBABILIDADE E ESTATÍSTICA</pattern>
                         <template>
                                 Michael Miller Rodrigues Cardoso
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE PROGRAMAÇAO 1</pattern>
+                <pattern>QUEM É O MONITOR DE PROGRAMAÇÃO 1</pattern>
                         <template>
-                                Robson Bruno Alves Pinheiro,
-                                José Arthur Lopes Sabino,
-                                Adeilton dos Santos Mesquita
-                                Leonardo Zaia
+                                Robson Bruno Alves Pinheiro, José Arthur Lopes Sabino, Adeilton dos Santos Mesquita e Leonardo Zaia
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE MATEMATICA DISCRETA</pattern>
+                <pattern>QUEM É O MONITOR DE MATEMÁTICA DISCRETA</pattern>
                         <template>
-                                Murilo Urquiza,
-                                Afrânio Yago
+                                Murilo Urquiza e Afrânio Yago
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE CIENCIA DE DADOS</pattern>
+                <pattern>QUEM É O MONITOR DE CIÊNCIA DE DADOS</pattern>
                         <template>
-                                Audrey Emmely,
-                                Jadson Crislan
+                                Audrey Emmely e Jadson Crislan
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE INTRODUÇAO A INFORMATICA</pattern>
+                <pattern>QUEM É O MONITOR DE INTRODUÇÃO Á INFORMATICA</pattern>
                         <template>
-                                Yanka Raissa Ribeiro,
-                                Mario Diego Ferreira
+                                Yanka Raissa Ribeiro e Mario Diego Ferreira
                         </template>
         </category>
 
@@ -114,7 +105,7 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE INTERAÇAO HOMEM DE MAQUINA</pattern>
+                <pattern>QUEM É O MONITOR DE INTERAÇÃO HOMEM-MAQUINA</pattern>
                         <template>
                                 Rayssa Mayanara Roseno Silva
                         </template>
@@ -122,7 +113,7 @@
 
 
                 <category>
-                <pattern>QUEM É O MONITOR DE TEORIA DA COMPUTAÇAO</pattern>
+                <pattern>QUEM É O MONITOR DE TEORIA DA COMPUTAÇÃO</pattern>
                         <template>
                                 Lucas Albuquerque Lisboa
                         </template>

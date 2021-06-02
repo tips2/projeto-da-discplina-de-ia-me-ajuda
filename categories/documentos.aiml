@@ -40,12 +40,12 @@
   </category>
 
 <category>
-    <pattern>* FORMULARIO * TRANSPAL </pattern>
+    <pattern>* FORMULARIO * TRANSPAL</pattern>
       <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
   </category>
 
 <category>
-    <pattern>* FORMULARIO * TRANSPAL</pattern>
+    <pattern>* FORMULÁRIO * TRANSPAL</pattern>
       <template><srai>AUTENTICAR FORMULARIO NA TRANSPAL</srai></template>
   </category>
 
@@ -54,7 +54,7 @@
   <category>
     <pattern>JUSTIFICAR ATESTADO MEDICO</pattern>
       <template>
-	      Você vai precisar levar  seu atestado no DRCA, que fica localizado na reitoria.
+	      Você vai precisar levar seu atestado no DRCA, que fica localizado na reitoria.
       </template>
   </category>
 
