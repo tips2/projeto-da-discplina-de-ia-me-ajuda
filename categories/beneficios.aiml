@@ -194,7 +194,7 @@
   </category>
 
   <category>
-    <pattern>COMO FUNCIONA * MONITORIA</pattern>
+    <pattern>COMO * MONITORIA</pattern>
       <template><srai>COMO FUNCIONA MONITORIA</srai></template>
   </category>
 
