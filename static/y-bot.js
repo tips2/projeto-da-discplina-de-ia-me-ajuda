@@ -16,10 +16,11 @@ $(document).ready(function(){
                 var response = JSON.parse(this.responseText);
                 var vid = document.getElementById("myvid");
                 msg.text = response.response.answer;
+
                 if (show_question == true) {
                     $("#chatbox").append ("<p><b>Você:</b> "+response.response.question.toUpperCase()+"</p>" );
                 }
-
+                
                 saidas = response.response.answer.toUpperCase();
                 lista_saidas = saidas.split("-");
 
@@ -70,13 +71,14 @@ $(document).ready(function(){
         } else {
             question = $(this).text();
         }
-        return ask_question(question, true)
+        
+        return ask_question(question.normalize('NFD').replace(/[\u0300-\u036f]/g, ""), true)
     });
 
 	$("#submitmsg").click(function(){
         var question = $("#usermsg").val();
         $("#usermsg").val("");
-        return ask_question(question, true)
+        return ask_question(question.normalize('NFD').replace(/[\u0300-\u036f]/g, ""), true)
 	});
 
 });

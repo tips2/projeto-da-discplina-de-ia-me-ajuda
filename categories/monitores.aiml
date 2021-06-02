@@ -2,21 +2,21 @@
 <aiml version="2.0">
 
         <category>
-                <pattern>QUEM É O MONITOR DE ROBÓTICA MOVEL</pattern>
+                <pattern>QUEM E O MONITOR DE ROBOTICA MOVEL</pattern>
                         <template>
                                 Alan Pereira da Silva
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE ESTRUTURA DE DADOS</pattern>
+                <pattern>QUEM E O MONITOR DE ESTRUTURA DE DADOS</pattern>
                         <template>
                                 Guilherme Volney Mota Amaral
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE LFAC</pattern>
+                <pattern>QUEM E O MONITOR DE LFAC</pattern>
                         <template>
                                 Luana Júlia Nunes Ferreira,
                                 Mateus Fernando Felismino da Silva Patriota,
@@ -25,14 +25,14 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE COMPUTAÇÃO GRAFICA</pattern>
+                <pattern>QUEM E O MONITOR DE COMPUTACAO GRAFICA</pattern>
                         <template>
                                 Valério Nogueira Rodrigues Junior
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE CÁLCULO 1</pattern>
+                <pattern>QUEM E O MONITOR DE CALCULO 1</pattern>
                         <template>
                                 Rebeca de Jesus Brandão e Jadson César da Silva Santos
                         </template>
@@ -74,14 +74,14 @@
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE CIÊNCIA DE DADOS</pattern>
+                <pattern>QUEM E O MONITOR DE CIENCIA DE DADOS</pattern>
                         <template>
                                 Audrey Emmely e Jadson Crislan
                         </template>
         </category>
 
         <category>
-                <pattern>QUEM É O MONITOR DE INTRODUÇÃO Á INFORMATICA</pattern>
+                <pattern>QUEM É O MONITOR DE INTRODUÇAO A INFORMATICA</pattern>
                         <template>
                                 Yanka Raissa Ribeiro e Mario Diego Ferreira
                         </template>
