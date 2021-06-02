@@ -318,7 +318,7 @@
 
 <category>
     <pattern>* CARTEIRINHA * TRANSPAL</pattern>
-      <template><srai>CARTERINHA TRANSPAL</srai></template>
+      <template><srai>CARTEIRINHA TRANSPAL</srai></template>
 </category>
 
 </aiml>
