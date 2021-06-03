@@ -1,5 +1,6 @@
 
 #### Projeto desenvolvido para a disciplina de Inteligência Artificial, ministrada pelo professor Evandro Barros e Giseldo Neo
+Alunas: Ana Carolina Nesso, Kamila Benevides e Natália Assis
 
 ## Instalando as dependências
 $ git clone https://github.com/tips2/projeto-da-discplina-de-ia-me-ajuda.git
